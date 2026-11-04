@@ -1,0 +1,5 @@
+utility,achieved_gwh,goal_gwh,pct_energy_goal,pct_summer_goal,pct_winter_goal,all_goals_met,goals_missed
+Tampa Electric,65.8,47.0,1.4,1.1259,0.866,No,winter
+Duke Energy Florida,65.0,56.0,1.1607,1.8214,1.7429,Yes,
+Florida Power & Light,102.57,100.08,1.0249,1.19,1.2328,Yes,
+Florida Public Utilities,0.127,0.517,0.2456,0.1558,0.4205,No,energy summer winter

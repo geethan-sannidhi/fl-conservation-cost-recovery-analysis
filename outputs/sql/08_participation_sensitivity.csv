@@ -1,0 +1,27 @@
+utility,program,cost_per_kwh_low_participation,cost_per_kwh_actual,cost_per_kwh_high_participation,tier_changes
+Duke Energy Florida,Residential Incentive Program (f/k/a Home Energy Improvement),0.6189,0.5757,0.5469,Yes
+Duke Energy Florida,Neighborhood Energy Saver,0.6362,0.5918,0.5622,Yes
+Florida Power & Light,Business Lighting,0.0343,0.0319,0.0303,No
+Tampa Electric,RESIDENTIAL CUSTOMER ASSISTED AUDITS,0.0472,0.0439,0.0417,No
+Tampa Electric,RESIDENTIAL HEATING AND COOLING TIER1,0.053,0.0493,0.0468,No
+Florida Power & Light,Residential New Construction (BuildSmart®),0.1008,0.0938,0.0891,No
+Tampa Electric,RESIDENTIAL HEATING AND COOLING TIER 2,0.1055,0.0982,0.0933,No
+Florida Power & Light,Residential Ceiling Insulation,0.1119,0.1041,0.0989,No
+Tampa Electric,ENERGY STAR POOL PUMPS,0.1272,0.1183,0.1124,No
+Duke Energy Florida,Smart $aver Business,0.2046,0.1903,0.1808,No
+Tampa Electric,COMMERCIAL LIGHTING - CONDITIONED SPACE,0.2502,0.2328,0.2211,No
+Florida Power & Light,"Business Heating, Ventilating & Air Conditioning",0.2705,0.2517,0.2391,No
+Duke Energy Florida,Home Energy Check,0.2865,0.2665,0.2532,No
+Tampa Electric,COMMERCIAL OCCUPANCY SENSORS,0.2942,0.2736,0.26,No
+Tampa Electric,NEIGHBORHOOD WEATHERIZATION,0.376,0.3498,0.3323,No
+Florida Power & Light,Residential HVAC,0.4565,0.4247,0.4034,No
+Florida Power & Light,Residential Low-Income Weatherization,0.494,0.4595,0.4366,No
+Tampa Electric,ENERGY STAR for NEW HOMES (formerly RESIDENTIAL NEW CONSTRUCTION),0.5264,0.4897,0.4652,No
+Duke Energy Florida,Low Income Weatherization Assistance,0.9418,0.8761,0.8323,No
+Tampa Electric,RESIDENTIAL WINDOW REPLACEMENT,0.9842,0.9155,0.8697,No
+Duke Energy Florida,Multi-Family New Builder Construction,1.2349,1.1488,1.0913,No
+Tampa Electric,FREE COMMERCIAL/INDUSTRIAL AUDIT,1.4055,1.3074,1.2421,No
+Tampa Electric,RESIDENTIAL CEILING INSULATION,1.5195,1.4135,1.3428,No
+Tampa Electric,RESIDENTIAL ALTERNATE AUDIT (aka Walk-Thru Audit or EA Free),2.3269,2.1646,2.0564,No
+Duke Energy Florida,Business Energy Check,4.0266,3.7456,3.5584,No
+Tampa Electric,ENERGY PLANNER,10.9471,10.1834,9.6742,No

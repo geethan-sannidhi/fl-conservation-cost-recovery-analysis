@@ -1,0 +1,9 @@
+kind,label,programs,cost_usd,cost_per_kwh
+group,Mixed signals,11,39831100.0,
+group,Appears cost-effective,8,8549600.0,
+group,Needs more support,6,3800000.0,
+group,Insufficient information,1,5611000.0,
+portfolio,All screenable programs,35,58133900.0,0.301
+utility,Tampa Electric,22,11022900.0,0.3207
+utility,Duke Energy Florida,7,25384000.0,0.41
+utility,Florida Power & Light,6,21727000.0,0.2243

@@ -1,0 +1,68 @@
+utility,short_name,program,cost_basis,program_cost_usd,kwh_meter,net_benefits_usd,is_demand_program,screenable,cost_per_kwh,payback_years_value_1,payback_years_value_2,payback_years_value_3,cost_tier,screened,screening_group
+Florida Power & Light,FPL,Business Lighting,total program cost,570000.0,17853658.0,-1031000.0,0,1,0.031926,1.06,0.53,0.32,lower,1,Mixed signals
+Tampa Electric,Tampa Electric,RESIDENTIAL CUSTOMER ASSISTED AUDITS,total program cost,420500.0,9580673.0,52000.0,0,1,0.04389,1.46,0.73,0.44,lower,1,Appears cost-effective
+Tampa Electric,Tampa Electric,RESIDENTIAL HEATING AND COOLING TIER1,total program cost,151200.0,3068871.0,20580100.0,0,1,0.049269,1.64,0.82,0.49,lower,1,Appears cost-effective
+Florida Power & Light,FPL,Residential New Construction (BuildSmart®),total program cost,724000.0,7718651.0,-743000.0,0,1,0.093799,3.13,1.56,0.94,lower,1,Mixed signals
+Tampa Electric,Tampa Electric,RESIDENTIAL HEATING AND COOLING TIER 2,total program cost,297200.0,3027280.0,8326900.0,0,1,0.098174,3.27,1.64,0.98,lower,1,Appears cost-effective
+Florida Power & Light,FPL,Residential Ceiling Insulation,total program cost,1709000.0,16419404.0,-1147000.0,0,1,0.104084,3.47,1.73,1.04,lower,1,Mixed signals
+Tampa Electric,Tampa Electric,ENERGY STAR POOL PUMPS,total program cost,337500.0,2852124.0,0.0,0,1,0.118333,3.94,1.97,1.18,lower,1,Mixed signals
+Duke Energy Florida,Duke,Smart $aver Business,total program cost,2249000.0,11817979.0,7244000.0,0,1,0.190303,6.34,3.17,1.9,moderate,1,Appears cost-effective
+Tampa Electric,Tampa Electric,COMMERCIAL LIGHTING - CONDITIONED SPACE,total program cost,207800.0,892728.0,2933700.0,0,1,0.23277,7.76,3.88,2.33,moderate,1,Appears cost-effective
+Florida Power & Light,FPL,"Business Heating, Ventilating & Air Conditioning",total program cost,7488000.0,29752853.0,-2018000.0,0,1,0.251673,8.39,4.19,2.52,moderate,1,Mixed signals
+Duke Energy Florida,Duke,Home Energy Check,total program cost,5611000.0,21054647.0,,0,1,0.266497,8.88,4.44,2.66,moderate,1,Insufficient information
+Tampa Electric,Tampa Electric,COMMERCIAL OCCUPANCY SENSORS,total program cost,344100.0,1257506.0,18707000.0,0,1,0.273637,9.12,4.56,2.74,moderate,1,Appears cost-effective
+Tampa Electric,Tampa Electric,NEIGHBORHOOD WEATHERIZATION,total program cost,2929800.0,8376036.0,-31925100.0,0,1,0.349784,11.66,5.83,3.5,moderate,1,Mixed signals
+Florida Power & Light,FPL,Residential HVAC,total program cost,3742000.0,8811705.0,-1425000.0,0,1,0.424662,14.16,7.08,4.25,moderate,1,Mixed signals
+Florida Power & Light,FPL,Residential Low-Income Weatherization,total program cost,7494000.0,16307942.0,-4693000.0,0,1,0.459531,15.32,7.66,4.6,moderate,1,Mixed signals
+Tampa Electric,Tampa Electric,ENERGY STAR for NEW HOMES (formerly RESIDENTIAL NEW CONSTRUCTION),total program cost,465800.0,951230.0,1162000.0,0,1,0.489682,16.32,8.16,4.9,moderate,1,Appears cost-effective
+Duke Energy Florida,Duke,Residential Incentive Program (f/k/a Home Energy Improvement),total program cost,4414000.0,7667268.0,8435000.0,0,1,0.575694,19.19,9.59,5.76,moderate,1,Appears cost-effective
+Duke Energy Florida,Duke,Neighborhood Energy Saver,total program cost,12290000.0,20766129.0,-25000.0,0,1,0.591829,19.73,9.86,5.92,moderate,1,Mixed signals
+Duke Energy Florida,Duke,Low Income Weatherization Assistance,total program cost,362000.0,413177.0,-213000.0,0,1,0.876138,29.2,14.6,8.76,higher,1,Needs more support
+Tampa Electric,Tampa Electric,RESIDENTIAL WINDOW REPLACEMENT,total program cost,176200.0,192465.0,0.0,0,1,0.915491,30.52,15.26,9.15,higher,1,Needs more support
+Duke Energy Florida,Duke,Multi-Family New Builder Construction,total program cost,114000.0,99237.0,-63000.0,0,1,1.148765,38.29,19.15,11.49,higher,1,Needs more support
+Tampa Electric,Tampa Electric,FREE COMMERCIAL/INDUSTRIAL AUDIT,total program cost,587500.0,449350.0,-155400.0,0,1,1.307444,43.58,21.79,13.07,higher,1,Needs more support
+Tampa Electric,Tampa Electric,RESIDENTIAL CEILING INSULATION,total program cost,414100.0,292967.0,135200.0,0,1,1.41347,47.12,23.56,14.13,higher,1,Mixed signals
+Tampa Electric,Tampa Electric,RESIDENTIAL ALTERNATE AUDIT (aka Walk-Thru Audit or EA Free),total program cost,2216300.0,1023885.0,-1799700.0,0,1,2.164599,72.15,36.08,21.65,higher,1,Needs more support
+Duke Energy Florida,Duke,Business Energy Check,total program cost,344000.0,91840.0,,0,1,3.745645,124.85,62.43,37.46,higher,1,Needs more support
+Tampa Electric,Tampa Electric,ENERGY PLANNER,total program cost,2132700.0,209430.0,7784600.0,0,1,10.183355,339.45,169.72,101.83,higher,1,Mixed signals
+Florida Power & Light,FPL,Residential Home Energy Survey,total program cost,13321000.0,,,0,0,,,,,,0,
+Florida Power & Light,FPL,Residential Load Management (On Call®),total program cost,41657000.0,4886.0,380000.0,1,0,,284192.93,142096.47,85257.88,,0,
+Florida Power & Light,FPL,Residential HVAC On-Bill Pilot,total program cost,0.0,0.0,0.0,0,0,,,,,,0,
+Florida Power & Light,FPL,Residential Low-Income Renter Pilot,total program cost,5000.0,0.0,0.0,0,0,,,,,,0,
+Florida Power & Light,FPL,Business Energy Evaluation,total program cost,5055000.0,,,0,0,,,,,,0,
+Florida Power & Light,FPL,Business On Call,total program cost,2582000.0,1054.0,3000.0,1,0,,81657.18,40828.59,24497.15,,0,
+Florida Power & Light,FPL,Commercial/Industrial Demand Reduction,total program cost,35177000.0,87481.0,-240000.0,1,0,,13403.67,6701.84,4021.1,,0,
+Florida Power & Light,FPL,Business Custom Incentive,total program cost,14000.0,0.0,,0,0,,,,,,0,
+Duke Energy Florida,Duke,"Residential Load Management (a/k/a Residential Energy Management, Energy-Wise)",total program cost,34874000.0,0.0,28299000.0,1,0,,,,,,0,
+Duke Energy Florida,Duke,Smart $aver Custom,total program cost,96000.0,0.0,-98000.0,0,0,,,,,,0,
+Duke Energy Florida,Duke,Commercial Energy Management,total program cost,677000.0,0.0,,1,0,,,,,,0,
+Duke Energy Florida,Duke,Interruptible Service,total program cost,51083000.0,0.0,0.0,1,0,,,,,,0,
+Duke Energy Florida,Duke,Standby Generation,total program cost,7348000.0,0.0,57253000.0,1,0,,,,,,0,
+Duke Energy Florida,Duke,Curtailable Service,total program cost,837000.0,0.0,27040000.0,1,0,,,,,,0,
+Tampa Electric,Tampa Electric,RESIDENTIAL PRIME TIME PLUS (Residential Load Management),total program cost,1746800.0,0.0,31160100.0,1,0,,,,,,0,
+Tampa Electric,Tampa Electric,COMPREHENSIVE COMMERCIAL/INDUSTRIAL AUDIT,total program cost,200.0,0.0,0.0,0,0,,,,,,0,
+Tampa Electric,Tampa Electric,CONSERVATION VALUE / CUSTOM ENERGY EFFICIENCY,total program cost,6800.0,0.0,0.0,0,0,,,,,,0,
+Tampa Electric,Tampa Electric,COMMERCIAL DEMAND RESPONSE,total program cost,3687500.0,0.0,0.0,1,0,,,,,,0,
+Tampa Electric,Tampa Electric,FACILITY ENERGY MANAGEMENT SYSTEM,total program cost,341600.0,25964031.0,0.0,1,0,,0.44,0.22,0.13,,0,
+Tampa Electric,Tampa Electric,INDUSTRIAL LOAD MANAGEMENT,total program cost,23521600.0,0.0,0.0,1,0,,,,,,0,
+Tampa Electric,Tampa Electric,COMMERCIAL LOAD MANAGEMENT- CYCLIC,total program cost,28800.0,0.0,0.0,1,0,,,,,,0,
+Tampa Electric,Tampa Electric,COMMERCIAL LOAD MANAGEMENT- EXTENDED,total program cost,0.0,0.0,0.0,1,0,,,,,,0,
+Tampa Electric,Tampa Electric,STANDBY GENERATOR,total program cost,4920400.0,0.0,0.0,1,0,,,,,,0,
+Tampa Electric,Tampa Electric,VARIABLE FREQUENCY DRIVE AND MOTOR CONTROLS,total program cost,5500.0,0.0,0.0,0,0,,,,,,0,
+Tampa Electric,Tampa Electric,COMMERCIAL WATER HEATING AND DRAIN HEAT RECOVERY,total program cost,100.0,0.0,0.0,0,0,,,,,,0,
+Florida Public Utilities,FPUC,Commercial Heating and Cooling Upgrade,direct costs only,0.0,0.0,0.0,0,0,,,,,,0,
+Florida Public Utilities,FPUC,Commercial Chiller Upgrade,direct costs only,0.0,0.0,0.0,0,0,,,,,,0,
+Florida Public Utilities,FPUC,Commercial Indoor & Outdoor Lighting,direct costs only,0.0,0.0,0.0,0,0,,,,,,0,
+Tampa Electric,Tampa Electric,COMMERCIAL CHILLERS,total program cost,11700.0,699660.0,0.0,0,1,0.016722,0.56,0.28,0.17,lower,0,
+Florida Public Utilities,FPUC,Residential Heating and Cooling Upgrade,direct costs only,5660.0,102690.0,34418.5,0,0,0.055117,1.84,0.92,0.55,lower,0,
+Tampa Electric,Tampa Electric,COMMERCIAL SMART THERMOSTATS,total program cost,23200.0,212221.0,0.0,0,1,0.10932,3.64,1.82,1.09,lower,0,
+Tampa Electric,Tampa Electric,COMMERCIAL LIGHTING - UNCONDITIONED SPACE,total program cost,74600.0,672027.0,125600.0,0,1,0.111007,3.7,1.85,1.11,lower,0,
+Florida Public Utilities,FPUC,Residential Small Appliance Program,direct costs only,108.0,924.0,252.8,0,0,0.116883,3.9,1.95,1.17,lower,0,
+Tampa Electric,Tampa Electric,COMMERCIAL COOLING - DX,total program cost,14600.0,65411.0,0.0,0,1,0.223204,7.44,3.72,2.23,moderate,0,
+Tampa Electric,Tampa Electric,RESIDENTIAL DUCT REPAIR,total program cost,66600.0,293544.0,139000.0,0,1,0.226883,7.56,3.78,2.27,moderate,0,
+Tampa Electric,Tampa Electric,ENERGY STAR for NEW MULTI-FAMILY RESIDENCES,total program cost,400.0,1716.0,0.0,0,1,0.2331,7.77,3.89,2.33,moderate,0,
+Tampa Electric,Tampa Electric,ENERGY STAR THERMOSTATS,total program cost,55600.0,175296.0,72000.0,0,1,0.317178,10.57,5.29,3.17,moderate,0,
+Florida Public Utilities,FPUC,Residential Low Income Program,direct costs only,5731.0,7020.0,-2990.88,0,0,0.816382,27.21,13.61,8.16,higher,0,
+Tampa Electric,Tampa Electric,RESIDENTIAL RCS AUDIT (Computer Assisted - Paid),total program cost,300.0,305.0,-300.0,0,1,0.983607,32.79,16.39,9.84,higher,0,
+Tampa Electric,Tampa Electric,"ENERGY AND RENEWABLE EDUCATION, AWARENESS AND AGENCY OUTREACH",total program cost,95200.0,76590.0,-37400.0,0,1,1.242982,41.43,20.72,12.43,higher,0,
+Florida Public Utilities,FPUC,Residential Energy Survey,direct costs only,60002.0,16716.0,-53475.740000000005,0,0,3.589495,119.65,59.82,35.89,higher,0,
