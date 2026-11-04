@@ -3,37 +3,112 @@
 ## Savings: sum of program pages vs. utility-reported total (GWh at generator)
 | Utility | Sum of program pages | Reported total | Difference |
 |---|---|---|---|
-| Florida Power & Light | 102.57 | 102.57 | +0.00 (+0.0%) |
-| Duke Energy Florida | 65.44 | 65.00 | +0.44 (+0.7%) |
-| Tampa Electric | 63.59 | 65.80 | -2.21 (-3.4%) |
+| Florida Power & Light | 102.571 | 102.570 | +0.001 (+0.0%) |
+| Duke Energy Florida | 65.442 | 65.000 | +0.442 (+0.7%) |
+| Tampa Electric | 63.593 | 65.800 | -2.207 (-3.4%) |
+| Florida Public Utilities | 0.131 | 0.127 | +0.004 (+3.3%) |
 
-## FPL cost: ECCR program costs (Exhibit LSN-1 p.27) vs. CT-2 total
-- Sum of 19 program/common lines: $168,697,311
-- CT-2 line 10 Total Adjusted Program Costs: $168,697,310
-- Difference: $1 (rounding in the filing)
+**FPUC meter/generator labels.** FPUC's program pages sum to 0.127 GWh at the meter and 0.131 GWh at the generator. Its summary prints 0.127 GWh in Table 2-3 (labelled 'At the Generator') and 0.131 GWh in Table 2-6 ('At the Meter'): the energy totals appear swapped. Generator savings should exceed meter savings, and the winter MW totals in the same tables are labelled correctly.
 
-## FPL cost: DSM annual report ($000, rounded) vs. ECCR exhibit ($)
-| Program | DSM report | ECCR exhibit | Match within $500 |
-|---|---|---|---|
-| Residential Home Energy Survey | 13,321,000 | 13,321,491 | yes |
-| Residential Load Management (On Call®) | 41,657,000 | 41,657,186 | yes |
-| Residential HVAC On-Bill Pilot | 0 | 0 | yes |
-| Residential HVAC | 3,742,000 | 3,742,367 | yes |
-| Residential New Construction (BuildSmart®) | 724,000 | 723,564 | yes |
-| Residential Ceiling Insulation | 1,709,000 | 1,708,847 | yes |
-| Residential Low-Income Renter Pilot | 5,000 | 5,099 | yes |
-| Residential Low-Income Weatherization | 7,494,000 | 7,493,814 | yes |
-| Business Energy Evaluation | 5,055,000 | 5,055,283 | yes |
-| Business On Call | 2,582,000 | 2,582,499 | yes |
-| Commercial/Industrial Demand Reduction | 35,177,000 | 35,177,226 | yes |
-| Business Heating, Ventilating & Air Conditioning | 7,488,000 | 7,488,400 | yes |
-| Business Lighting | 570,000 | 570,182 | yes |
-| Business Custom Incentive | 14,000 | 13,897 | yes |
+## Florida Power & Light: ECCR true-up (Schedule CT-2/CT-3, 2025)
+- 19 cost lines sum to $168,697,311; filed total $168,697,310 (CT-2 line 10 Total Adjusted Program Costs (Actual)); difference $1.
 
-## FPL costs outside the DSM program pages (ECCR recovers these too)
+| ECCR line | DSM report program(s) | DSM report $ | ECCR $ | Difference | Within rounding |
+|---|---|---|---|---|---|
+| Residential Home Energy Survey | Residential Home Energy Survey | 13,321,000 | 13,321,491 | -491 | yes |
+| Residential Load Management ("On Call") | Residential Load Management (On Call®) | 41,657,000 | 41,657,186 | -186 | yes |
+| Residential HVAC On-Bill Pilot | Residential HVAC On-Bill Pilot | 0 | 0 | +0 | yes |
+| Residential HVAC | Residential HVAC | 3,742,000 | 3,742,367 | -367 | yes |
+| Residential New Construction (BuildSmart) | Residential New Construction (BuildSmart®) | 724,000 | 723,564 | +436 | yes |
+| Residential Ceiling Insulation | Residential Ceiling Insulation | 1,709,000 | 1,708,847 | +153 | yes |
+| Residential Low Income Renter Pilot | Residential Low-Income Renter Pilot | 5,000 | 5,099 | -99 | yes |
+| Residential Low-Income Weatherization | Residential Low-Income Weatherization | 7,494,000 | 7,493,814 | +186 | yes |
+| Business Energy Evaluation | Business Energy Evaluation | 5,055,000 | 5,055,283 | -283 | yes |
+| Business On Call | Business On Call | 2,582,000 | 2,582,499 | -499 | yes |
+| Commercial/Industrial Demand Reduction | Commercial/Industrial Demand Reduction | 35,177,000 | 35,177,226 | -226 | yes |
+| Business Heating, Ventilating & A/C | Business Heating, Ventilating & Air Conditioning | 7,488,000 | 7,488,400 | -400 | yes |
+| Business Lighting | Business Lighting | 570,000 | 570,182 | -182 | yes |
+| Business Custom Incentive | Business Custom Incentive | 14,000 | 13,897 | +103 | yes |
+
+ECCR lines with no DSM program page (recovered through the clause but not reported as programs):
 - Cogeneration & Small Power Production: $-105,338
 - Commercial/Industrial Load Control: $36,537,623
 - Conservation Research & Development: $63,499
 - Common Expenses: $7,523,306
 - Energy Select (Regulatory Asset): $5,138,366
-- Total: $49,157,456 (29.1% of CT-2 total)
+- **Total: $49,157,456 (29.1% of filed total)**
+
+## Duke Energy Florida: ECCR true-up (Schedule CT-2/CT-3, 2025)
+- 15 cost lines sum to $124,029,727; filed total $124,029,727 (CT-2 p.1 line 10 Total Program Costs (Actual)); difference $0.
+
+| ECCR line | DSM report program(s) | DSM report $ | ECCR $ | Difference | Within rounding |
+|---|---|---|---|---|---|
+| Home Energy Check | Home Energy Check | 5,611,000 | 5,611,389 | -389 | yes |
+| Residential Incentive Program | Residential Incentive Program (f/k/a Home Energy Improvement) | 4,414,000 | 4,413,679 | +321 | yes |
+| Multi-Family New Builder Construction | Multi-Family New Builder Construction | 114,000 | 113,862 | +138 | yes |
+| Neighborhood Energy Saver | Neighborhood Energy Saver | 12,290,000 | 12,290,472 | -472 | yes |
+| Low Income Weatherization Assistance | Low Income Weatherization Assistance | 362,000 | 361,552 | +448 | yes |
+| Load Management (Residential & Commercial) | Residential Load Management (a/k/a Residential Energy Management, Energy-Wise); Commercial Energy Management | 35,551,000 | 35,550,302 | +698 | yes |
+| Business Energy Check | Business Energy Check | 344,000 | 344,242 | -242 | yes |
+| Better Business a/k/a Smart $aver Business (NRBBUS) | Smart $aver Business | 2,249,000 | 2,249,447 | -447 | yes |
+| Smart $aver Custom Incentive | Smart $aver Custom | 96,000 | 95,618 | +382 | yes |
+| Interruptible Service | Interruptible Service | 51,083,000 | 51,082,938 | +62 | yes |
+| Standby Generation | Standby Generation | 7,348,000 | 7,347,835 | +165 | yes |
+| Curtailable Service | Curtailable Service | 837,000 | 836,514 | +486 | yes |
+
+ECCR lines with no DSM program page (recovered through the clause but not reported as programs):
+- Technology Development: $379,903
+- Qualifying Facility: $625,951
+- Conservation Program Admin: $2,726,023
+- **Total: $3,731,877 (3.0% of filed total)**
+
+## Tampa Electric: ECCR true-up (Schedule CT-2/CT-3, 2025)
+- 37 cost lines sum to $47,648,597; filed total $47,648,597 (CT-2 p.1 line 11 Total (before removing Renewable Program, $51,578; line 13 = $47,597,019)); difference $0.
+
+| ECCR line | DSM report program(s) | DSM report $ | ECCR $ | Difference | Within rounding |
+|---|---|---|---|---|---|
+| Residential Walk-Through Energy Audit | RESIDENTIAL ALTERNATE AUDIT (aka Walk-Thru Audit or EA Free) | 2,216,300 | 2,216,300 | +0 | yes |
+| Residential Customer Assisted Audit | RESIDENTIAL CUSTOMER ASSISTED AUDITS | 420,500 | 420,514 | -14 | yes |
+| Residential Computer Assisted Audit | RESIDENTIAL RCS AUDIT (Computer Assisted - Paid) | 300 | 304 | -4 | yes |
+| Residential Ceiling Insulation | RESIDENTIAL CEILING INSULATION | 414,100 | 414,053 | +47 | yes |
+| Residential Duct Repair | RESIDENTIAL DUCT REPAIR | 66,600 | 66,619 | -19 | yes |
+| Energy and Renewable Education, Awareness and Agency Outreach | ENERGY AND RENEWABLE EDUCATION, AWARENESS AND AGENCY OUTREACH | 95,200 | 95,221 | -21 | yes |
+| Energy Star Multi-Family | ENERGY STAR for NEW MULTI-FAMILY RESIDENCES | 400 | 377 | +23 | yes |
+| Energy Star for New Homes | ENERGY STAR for NEW HOMES (formerly RESIDENTIAL NEW CONSTRUCTION) | 465,800 | 465,751 | +49 | yes |
+| Energy Star Pool Pumps | ENERGY STAR POOL PUMPS | 337,500 | 337,512 | -12 | yes |
+| Energy Star Thermostats | ENERGY STAR THERMOSTATS | 55,600 | 55,641 | -41 | yes |
+| Residential Heating and Cooling | RESIDENTIAL HEATING AND COOLING TIER1; RESIDENTIAL HEATING AND COOLING TIER 2 | 448,400 | 448,447 | -47 | yes |
+| Neighborhood Weatherization | NEIGHBORHOOD WEATHERIZATION | 2,929,800 | 2,929,778 | +22 | yes |
+| Energy Planner | ENERGY PLANNER | 2,132,700 | 2,132,830 | -130 | NO |
+| Residential Prime Time Plus | RESIDENTIAL PRIME TIME PLUS (Residential Load Management) | 1,746,800 | 1,746,862 | -62 | NO |
+| Residential Window Replacement | RESIDENTIAL WINDOW REPLACEMENT | 176,200 | 176,232 | -32 | yes |
+| Commercial/Industrial Audit (Free) | FREE COMMERCIAL/INDUSTRIAL AUDIT | 587,500 | 587,481 | +19 | yes |
+| Comprehensive Commercial/Industrial Audit (Paid) | COMPREHENSIVE COMMERCIAL/INDUSTRIAL AUDIT | 200 | 188 | +12 | yes |
+| Commercial Chiller | COMMERCIAL CHILLERS | 11,700 | 11,663 | +37 | yes |
+| Conservation Value | CONSERVATION VALUE / CUSTOM ENERGY EFFICIENCY | 6,800 | 6,797 | +3 | yes |
+| Commercial Cooling | COMMERCIAL COOLING - DX | 14,600 | 14,571 | +29 | yes |
+| Demand Response | COMMERCIAL DEMAND RESPONSE | 3,687,500 | 3,687,454 | +46 | yes |
+| Facility Energy Management System | FACILITY ENERGY MANAGEMENT SYSTEM | 341,600 | 341,586 | +14 | yes |
+| Industrial Load Management (GLSM 2&3) | INDUSTRIAL LOAD MANAGEMENT | 23,521,600 | 23,521,555 | +45 | yes |
+| Lighting Conditioned Space | COMMERCIAL LIGHTING - CONDITIONED SPACE | 207,800 | 207,827 | -27 | yes |
+| Lighting Non-Conditioned Space | COMMERCIAL LIGHTING - UNCONDITIONED SPACE | 74,600 | 74,619 | -19 | yes |
+| Lighting Occupancy Sensors | COMMERCIAL OCCUPANCY SENSORS | 344,100 | 344,124 | -24 | yes |
+| CILM (GLSM 1) | COMMERCIAL LOAD MANAGEMENT- CYCLIC | 28,800 | 28,820 | -20 | yes |
+| (none) | COMMERCIAL LOAD MANAGEMENT- EXTENDED | 0 | - | - | DSM page only |
+| Commercial Smart Thermostats | COMMERCIAL SMART THERMOSTATS | 23,200 | 23,201 | -1 | yes |
+| Standby Generator | STANDBY GENERATOR | 4,920,400 | 4,920,406 | -6 | yes |
+| Variable Frequency Drive Control for Compressors | VARIABLE FREQUENCY DRIVE AND MOTOR CONTROLS | 5,500 | 5,490 | +10 | yes |
+| Commercial Water Heating | COMMERCIAL WATER HEATING AND DRAIN HEAT RECOVERY | 100 | 70 | +30 | yes |
+
+ECCR lines with no DSM program page (recovered through the clause but not reported as programs):
+- Prime Time: $37,054
+- Cogeneration: $34,519
+- Conservation Research and Development: $118,018
+- Renewable Energy Program (Sun to Go): $51,578
+- Common Expenses: $1,220,738
+- Integrated Renewable Energy System (Pilot): $904,397
+- **Total: $2,366,304 (5.0% of filed total)**
+
+## Florida Public Utilities: costs
+FPUC's report (Table 4-1) gives direct program costs only, $71,501 in total for 2025, and says they are 'actual 2025 direct costs to each program sub-ledger'. FPUC's ECCR true-up was not located in the filings reviewed, so these costs are not cross-checked and are not comparable to the other utilities' fully loaded program costs.
+

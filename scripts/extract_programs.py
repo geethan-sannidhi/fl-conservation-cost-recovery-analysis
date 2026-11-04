@@ -68,6 +68,12 @@ for key, (fname, utility) in REPORTS.items():
                          annual_kwh_at_generator=kwh_gen, program_cost_thousands=cost, kwh_note=kwh_note,
                          source_file=fname, source_line=s + 1))
 
+# FPUC's report uses a different layout (and two of its tables are images), so its programs are
+# transcribed by hand in data/fpuc_programs_2025_manual.csv and appended here.
+manual = Path(__file__).resolve().parents[1] / "data" / "fpuc_programs_2025_manual.csv"
+for r in csv.DictReader(open(manual)):
+    rows.append({k: r.get(k, "") for k in rows[0]})
+
 OUT.parent.mkdir(parents=True, exist_ok=True)
 with open(OUT, "w", newline="") as fh:
     w = csv.DictWriter(fh, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)

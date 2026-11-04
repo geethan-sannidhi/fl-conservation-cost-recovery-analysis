@@ -37,8 +37,20 @@ def scenario(cost, kwh, share, fixed=FIXED_COST_SHARE):
     return cost * (fixed + (1 - fixed) * share), kwh * share
 
 
+DIRECT_COST_ONLY = {"Florida Public Utilities"}  # reports direct sub-ledger costs, not fully loaded
+
+
+def cost_basis(utility):
+    return "direct costs only" if utility in DIRECT_COST_ONLY else "total program cost"
+
+
 def analyzable(p):
-    return (not p["demand_program"]) and p["kwh"] and p["cost"] is not None
+    return bool((not p["demand_program"]) and p["kwh"] and p["cost"] is not None)
+
+
+def rankable(p):
+    """Analyzable and on a fully loaded cost basis, so it can be compared across utilities."""
+    return analyzable(p) and p["utility"] not in DIRECT_COST_ONLY
 
 
 def utility_totals(programs):

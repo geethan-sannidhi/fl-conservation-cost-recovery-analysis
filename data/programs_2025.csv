@@ -59,3 +59,10 @@ Tampa Electric,COMMERCIAL SMART THERMOSTATS,212221.0,223257.0,23.2,,dsm_2025_Tam
 Tampa Electric,STANDBY GENERATOR,0.0,0.0,4920.4,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2365
 Tampa Electric,VARIABLE FREQUENCY DRIVE AND MOTOR CONTROLS,0.0,0.0,5.5,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2420
 Tampa Electric,COMMERCIAL WATER HEATING AND DRAIN HEAT RECOVERY,0.0,0.0,0.1,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2469
+Florida Public Utilities,Residential Energy Survey,16716,17220,60.002,Table 3-1 is an image; values read from rendered page 9,dsm_2025_FloridaPublicUtilitiesCompany.pdf,p.9 (Table 3-1); cost Table 4-1
+Florida Public Utilities,Residential Heating and Cooling Upgrade,102690,105755,5.660,Table 3-2 is an image; values read from rendered page 10,dsm_2025_FloridaPublicUtilitiesCompany.pdf,p.10 (Table 3-2); cost Table 4-1
+Florida Public Utilities,Residential Low Income Program,7020,7232,5.731,,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-3; cost Table 4-1
+Florida Public Utilities,Residential Small Appliance Program,924,953,0.108,,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-4; cost Table 4-1
+Florida Public Utilities,Commercial Heating and Cooling Upgrade,0,0,0,no participants in 2025,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-5; cost Table 4-1
+Florida Public Utilities,Commercial Chiller Upgrade,0,0,0,no participants in 2025,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-6; cost Table 4-1
+Florida Public Utilities,Commercial Indoor & Outdoor Lighting,0,0,0,no participants in 2025,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-7; cost Table 4-1

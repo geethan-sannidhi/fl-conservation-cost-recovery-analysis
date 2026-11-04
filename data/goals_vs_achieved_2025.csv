@@ -2,4 +2,4 @@ utility,achieved_gwh,goal_gwh,basis,source
 Florida Power & Light,102.57,100.08,at generator,FPL 2025 DSM Annual Report p.1
 Duke Energy Florida,65,56,at generator (rounded to whole GWh in report),DEF 2025 DSM summary p.1
 Tampa Electric,65.8,47.0,at generator (combined residential + C/I),TECO 2025 DSM Accomplishments Report summary
-Florida Public Utilities,0.131,0.465,at meter,FPUC 2025 Annual Conservation Report Table 2-6
+Florida Public Utilities,0.127,0.517,at generator (as printed in Table 2-3; program pages sum to 0.131 - see checks),FPUC 2025 Annual Conservation Report Table 2-3

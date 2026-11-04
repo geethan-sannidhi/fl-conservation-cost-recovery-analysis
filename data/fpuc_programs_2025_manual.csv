@@ -1,0 +1,8 @@
+utility,program,annual_kwh_at_meter,annual_kwh_at_generator,program_cost_thousands,kwh_note,source_file,source_line
+Florida Public Utilities,Residential Energy Survey,16716,17220,60.002,"Table 3-1 is an image; values read from rendered page 9",dsm_2025_FloridaPublicUtilitiesCompany.pdf,p.9 (Table 3-1); cost Table 4-1
+Florida Public Utilities,Residential Heating and Cooling Upgrade,102690,105755,5.660,"Table 3-2 is an image; values read from rendered page 10",dsm_2025_FloridaPublicUtilitiesCompany.pdf,p.10 (Table 3-2); cost Table 4-1
+Florida Public Utilities,Residential Low Income Program,7020,7232,5.731,,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-3; cost Table 4-1
+Florida Public Utilities,Residential Small Appliance Program,924,953,0.108,,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-4; cost Table 4-1
+Florida Public Utilities,Commercial Heating and Cooling Upgrade,0,0,0,no participants in 2025,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-5; cost Table 4-1
+Florida Public Utilities,Commercial Chiller Upgrade,0,0,0,no participants in 2025,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-6; cost Table 4-1
+Florida Public Utilities,Commercial Indoor & Outdoor Lighting,0,0,0,no participants in 2025,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-7; cost Table 4-1

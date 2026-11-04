@@ -1,61 +1,68 @@
-utility,program,program_cost_usd,annual_kwh_at_meter,demand_program,cost_per_kwh_usd,payback_years_at_0.03_per_kwh,payback_years_at_0.06_per_kwh,payback_years_at_0.10_per_kwh
-Florida Power & Light,Residential Home Energy Survey,13321000.0,,False,,,,
-Florida Power & Light,Residential Load Management (On Call®),41657000.0,4886.0,True,,,,
-Florida Power & Light,Residential HVAC On-Bill Pilot,0.0,0.0,False,,,,
-Florida Power & Light,Residential HVAC,3742000.0,8811705.0,False,0.4247,14.1554,7.0777,4.2466
-Florida Power & Light,Residential New Construction (BuildSmart®),724000.0,7718651.0,False,0.0938,3.1266,1.5633,0.938
-Florida Power & Light,Residential Ceiling Insulation,1709000.0,16419404.0,False,0.1041,3.4695,1.7347,1.0408
-Florida Power & Light,Residential Low-Income Renter Pilot,5000.0,0.0,False,,,,
-Florida Power & Light,Residential Low-Income Weatherization,7494000.0,16307942.0,False,0.4595,15.3177,7.6588,4.5953
-Florida Power & Light,Business Energy Evaluation,5055000.0,,False,,,,
-Florida Power & Light,Business On Call,2582000.0,1054.0,True,,,,
-Florida Power & Light,Commercial/Industrial Demand Reduction,35177000.0,87481.0,True,,,,
-Florida Power & Light,"Business Heating, Ventilating & Air Conditioning",7488000.0,29752853.0,False,0.2517,8.3891,4.1946,2.5167
-Florida Power & Light,Business Lighting,570000.0,17853658.0,False,0.0319,1.0642,0.5321,0.3193
-Florida Power & Light,Business Custom Incentive,14000.0,0.0,False,,,,
-Duke Energy Florida,Home Energy Check,5611000.0,21054647.0,False,0.2665,8.8832,4.4416,2.665
-Duke Energy Florida,Residential Incentive Program (f/k/a Home Energy Improvement),4414000.0,7667268.0,False,0.5757,19.1898,9.5949,5.7569
-Duke Energy Florida,Multi-Family New Builder Construction,114000.0,99237.0,False,1.1488,38.2922,19.1461,11.4877
-Duke Energy Florida,Neighborhood Energy Saver,12290000.0,20766129.0,False,0.5918,19.7276,9.8638,5.9183
-Duke Energy Florida,Low Income Weatherization Assistance,362000.0,413177.0,False,0.8761,29.2046,14.6023,8.7614
-Duke Energy Florida,"Residential Load Management (a/k/a Residential Energy Management, Energy-Wise)",34874000.0,0.0,True,,,,
-Duke Energy Florida,Business Energy Check,344000.0,91840.0,False,3.7456,124.8548,62.4274,37.4564
-Duke Energy Florida,Smart $aver Business,2249000.0,11817979.0,False,0.1903,6.3434,3.1717,1.903
-Duke Energy Florida,Smart $aver Custom,96000.0,0.0,False,,,,
-Duke Energy Florida,Commercial Energy Management,677000.0,0.0,True,,,,
-Duke Energy Florida,Interruptible Service,51083000.0,0.0,True,,,,
-Duke Energy Florida,Standby Generation,7348000.0,0.0,True,,,,
-Duke Energy Florida,Curtailable Service,837000.0,0.0,True,,,,
-Tampa Electric,RESIDENTIAL ALTERNATE AUDIT (aka Walk-Thru Audit or EA Free),2216300.0,1023885.0,False,2.1646,72.1533,36.0766,21.646
-Tampa Electric,RESIDENTIAL CUSTOMER ASSISTED AUDITS,420500.0,9580673.0,False,0.0439,1.463,0.7315,0.4389
-Tampa Electric,RESIDENTIAL RCS AUDIT (Computer Assisted - Paid),300.0,305.0,False,0.9836,32.7869,16.3934,9.8361
-Tampa Electric,RESIDENTIAL CEILING INSULATION,414100.0,292967.0,False,1.4135,47.1157,23.5578,14.1347
-Tampa Electric,RESIDENTIAL DUCT REPAIR,66600.0,293544.0,False,0.2269,7.5628,3.7814,2.2688
-Tampa Electric,"ENERGY AND RENEWABLE EDUCATION, AWARENESS AND AGENCY OUTREACH",95200.0,76590.0,False,1.243,41.4327,20.7164,12.4298
-Tampa Electric,ENERGY STAR for NEW MULTI-FAMILY RESIDENCES,400.0,1716.0,False,0.2331,7.77,3.885,2.331
-Tampa Electric,ENERGY STAR for NEW HOMES (formerly RESIDENTIAL NEW CONSTRUCTION),465800.0,951230.0,False,0.4897,16.3227,8.1614,4.8968
-Tampa Electric,ENERGY STAR POOL PUMPS,337500.0,2852124.0,False,0.1183,3.9444,1.9722,1.1833
-Tampa Electric,ENERGY STAR THERMOSTATS,55600.0,175296.0,False,0.3172,10.5726,5.2863,3.1718
-Tampa Electric,RESIDENTIAL HEATING AND COOLING TIER1,151200.0,3068871.0,False,0.0493,1.6423,0.8211,0.4927
-Tampa Electric,RESIDENTIAL HEATING AND COOLING TIER 2,297200.0,3027280.0,False,0.0982,3.2725,1.6362,0.9817
-Tampa Electric,NEIGHBORHOOD WEATHERIZATION,2929800.0,8376036.0,False,0.3498,11.6595,5.8297,3.4978
-Tampa Electric,ENERGY PLANNER,2132700.0,209430.0,False,10.1834,339.4452,169.7226,101.8335
-Tampa Electric,RESIDENTIAL PRIME TIME PLUS (Residential Load Management),1746800.0,0.0,True,,,,
-Tampa Electric,RESIDENTIAL WINDOW REPLACEMENT,176200.0,192465.0,False,0.9155,30.5164,15.2582,9.1549
-Tampa Electric,FREE COMMERCIAL/INDUSTRIAL AUDIT,587500.0,449350.0,False,1.3074,43.5815,21.7907,13.0744
-Tampa Electric,COMPREHENSIVE COMMERCIAL/INDUSTRIAL AUDIT,200.0,0.0,False,,,,
-Tampa Electric,COMMERCIAL CHILLERS,11700.0,699660.0,False,0.0167,0.5574,0.2787,0.1672
-Tampa Electric,CONSERVATION VALUE / CUSTOM ENERGY EFFICIENCY,6800.0,0.0,False,,,,
-Tampa Electric,COMMERCIAL COOLING - DX,14600.0,65411.0,False,0.2232,7.4401,3.7201,2.232
-Tampa Electric,COMMERCIAL DEMAND RESPONSE,3687500.0,0.0,True,,,,
-Tampa Electric,FACILITY ENERGY MANAGEMENT SYSTEM,341600.0,25964031.0,True,,,,
-Tampa Electric,INDUSTRIAL LOAD MANAGEMENT,23521600.0,0.0,True,,,,
-Tampa Electric,COMMERCIAL LIGHTING - CONDITIONED SPACE,207800.0,892728.0,False,0.2328,7.759,3.8795,2.3277
-Tampa Electric,COMMERCIAL LIGHTING - UNCONDITIONED SPACE,74600.0,672027.0,False,0.111,3.7002,1.8501,1.1101
-Tampa Electric,COMMERCIAL OCCUPANCY SENSORS,344100.0,1257506.0,False,0.2736,9.1212,4.5606,2.7364
-Tampa Electric,COMMERCIAL LOAD MANAGEMENT- CYCLIC,28800.0,0.0,True,,,,
-Tampa Electric,COMMERCIAL LOAD MANAGEMENT- EXTENDED,0.0,0.0,True,,,,
-Tampa Electric,COMMERCIAL SMART THERMOSTATS,23200.0,212221.0,False,0.1093,3.644,1.822,1.0932
-Tampa Electric,STANDBY GENERATOR,4920400.0,0.0,True,,,,
-Tampa Electric,VARIABLE FREQUENCY DRIVE AND MOTOR CONTROLS,5500.0,0.0,False,,,,
-Tampa Electric,COMMERCIAL WATER HEATING AND DRAIN HEAT RECOVERY,100.0,0.0,False,,,,
+utility,program,cost_basis,program_cost_usd,annual_kwh_at_meter,demand_program,cost_per_kwh_usd,payback_years_at_0.03_per_kwh,payback_years_at_0.06_per_kwh,payback_years_at_0.10_per_kwh
+Florida Power & Light,Residential Home Energy Survey,total program cost,13321000.0,,False,,,,
+Florida Power & Light,Residential Load Management (On Call®),total program cost,41657000.0,4886.0,True,,,,
+Florida Power & Light,Residential HVAC On-Bill Pilot,total program cost,0.0,0.0,False,,,,
+Florida Power & Light,Residential HVAC,total program cost,3742000.0,8811705.0,False,0.4247,14.1554,7.0777,4.2466
+Florida Power & Light,Residential New Construction (BuildSmart®),total program cost,724000.0,7718651.0,False,0.0938,3.1266,1.5633,0.938
+Florida Power & Light,Residential Ceiling Insulation,total program cost,1709000.0,16419404.0,False,0.1041,3.4695,1.7347,1.0408
+Florida Power & Light,Residential Low-Income Renter Pilot,total program cost,5000.0,0.0,False,,,,
+Florida Power & Light,Residential Low-Income Weatherization,total program cost,7494000.0,16307942.0,False,0.4595,15.3177,7.6588,4.5953
+Florida Power & Light,Business Energy Evaluation,total program cost,5055000.0,,False,,,,
+Florida Power & Light,Business On Call,total program cost,2582000.0,1054.0,True,,,,
+Florida Power & Light,Commercial/Industrial Demand Reduction,total program cost,35177000.0,87481.0,True,,,,
+Florida Power & Light,"Business Heating, Ventilating & Air Conditioning",total program cost,7488000.0,29752853.0,False,0.2517,8.3891,4.1946,2.5167
+Florida Power & Light,Business Lighting,total program cost,570000.0,17853658.0,False,0.0319,1.0642,0.5321,0.3193
+Florida Power & Light,Business Custom Incentive,total program cost,14000.0,0.0,False,,,,
+Duke Energy Florida,Home Energy Check,total program cost,5611000.0,21054647.0,False,0.2665,8.8832,4.4416,2.665
+Duke Energy Florida,Residential Incentive Program (f/k/a Home Energy Improvement),total program cost,4414000.0,7667268.0,False,0.5757,19.1898,9.5949,5.7569
+Duke Energy Florida,Multi-Family New Builder Construction,total program cost,114000.0,99237.0,False,1.1488,38.2922,19.1461,11.4877
+Duke Energy Florida,Neighborhood Energy Saver,total program cost,12290000.0,20766129.0,False,0.5918,19.7276,9.8638,5.9183
+Duke Energy Florida,Low Income Weatherization Assistance,total program cost,362000.0,413177.0,False,0.8761,29.2046,14.6023,8.7614
+Duke Energy Florida,"Residential Load Management (a/k/a Residential Energy Management, Energy-Wise)",total program cost,34874000.0,0.0,True,,,,
+Duke Energy Florida,Business Energy Check,total program cost,344000.0,91840.0,False,3.7456,124.8548,62.4274,37.4564
+Duke Energy Florida,Smart $aver Business,total program cost,2249000.0,11817979.0,False,0.1903,6.3434,3.1717,1.903
+Duke Energy Florida,Smart $aver Custom,total program cost,96000.0,0.0,False,,,,
+Duke Energy Florida,Commercial Energy Management,total program cost,677000.0,0.0,True,,,,
+Duke Energy Florida,Interruptible Service,total program cost,51083000.0,0.0,True,,,,
+Duke Energy Florida,Standby Generation,total program cost,7348000.0,0.0,True,,,,
+Duke Energy Florida,Curtailable Service,total program cost,837000.0,0.0,True,,,,
+Tampa Electric,RESIDENTIAL ALTERNATE AUDIT (aka Walk-Thru Audit or EA Free),total program cost,2216300.0,1023885.0,False,2.1646,72.1533,36.0766,21.646
+Tampa Electric,RESIDENTIAL CUSTOMER ASSISTED AUDITS,total program cost,420500.0,9580673.0,False,0.0439,1.463,0.7315,0.4389
+Tampa Electric,RESIDENTIAL RCS AUDIT (Computer Assisted - Paid),total program cost,300.0,305.0,False,0.9836,32.7869,16.3934,9.8361
+Tampa Electric,RESIDENTIAL CEILING INSULATION,total program cost,414100.0,292967.0,False,1.4135,47.1157,23.5578,14.1347
+Tampa Electric,RESIDENTIAL DUCT REPAIR,total program cost,66600.0,293544.0,False,0.2269,7.5628,3.7814,2.2688
+Tampa Electric,"ENERGY AND RENEWABLE EDUCATION, AWARENESS AND AGENCY OUTREACH",total program cost,95200.0,76590.0,False,1.243,41.4327,20.7164,12.4298
+Tampa Electric,ENERGY STAR for NEW MULTI-FAMILY RESIDENCES,total program cost,400.0,1716.0,False,0.2331,7.77,3.885,2.331
+Tampa Electric,ENERGY STAR for NEW HOMES (formerly RESIDENTIAL NEW CONSTRUCTION),total program cost,465800.0,951230.0,False,0.4897,16.3227,8.1614,4.8968
+Tampa Electric,ENERGY STAR POOL PUMPS,total program cost,337500.0,2852124.0,False,0.1183,3.9444,1.9722,1.1833
+Tampa Electric,ENERGY STAR THERMOSTATS,total program cost,55600.0,175296.0,False,0.3172,10.5726,5.2863,3.1718
+Tampa Electric,RESIDENTIAL HEATING AND COOLING TIER1,total program cost,151200.0,3068871.0,False,0.0493,1.6423,0.8211,0.4927
+Tampa Electric,RESIDENTIAL HEATING AND COOLING TIER 2,total program cost,297200.0,3027280.0,False,0.0982,3.2725,1.6362,0.9817
+Tampa Electric,NEIGHBORHOOD WEATHERIZATION,total program cost,2929800.0,8376036.0,False,0.3498,11.6595,5.8297,3.4978
+Tampa Electric,ENERGY PLANNER,total program cost,2132700.0,209430.0,False,10.1834,339.4452,169.7226,101.8335
+Tampa Electric,RESIDENTIAL PRIME TIME PLUS (Residential Load Management),total program cost,1746800.0,0.0,True,,,,
+Tampa Electric,RESIDENTIAL WINDOW REPLACEMENT,total program cost,176200.0,192465.0,False,0.9155,30.5164,15.2582,9.1549
+Tampa Electric,FREE COMMERCIAL/INDUSTRIAL AUDIT,total program cost,587500.0,449350.0,False,1.3074,43.5815,21.7907,13.0744
+Tampa Electric,COMPREHENSIVE COMMERCIAL/INDUSTRIAL AUDIT,total program cost,200.0,0.0,False,,,,
+Tampa Electric,COMMERCIAL CHILLERS,total program cost,11700.0,699660.0,False,0.0167,0.5574,0.2787,0.1672
+Tampa Electric,CONSERVATION VALUE / CUSTOM ENERGY EFFICIENCY,total program cost,6800.0,0.0,False,,,,
+Tampa Electric,COMMERCIAL COOLING - DX,total program cost,14600.0,65411.0,False,0.2232,7.4401,3.7201,2.232
+Tampa Electric,COMMERCIAL DEMAND RESPONSE,total program cost,3687500.0,0.0,True,,,,
+Tampa Electric,FACILITY ENERGY MANAGEMENT SYSTEM,total program cost,341600.0,25964031.0,True,,,,
+Tampa Electric,INDUSTRIAL LOAD MANAGEMENT,total program cost,23521600.0,0.0,True,,,,
+Tampa Electric,COMMERCIAL LIGHTING - CONDITIONED SPACE,total program cost,207800.0,892728.0,False,0.2328,7.759,3.8795,2.3277
+Tampa Electric,COMMERCIAL LIGHTING - UNCONDITIONED SPACE,total program cost,74600.0,672027.0,False,0.111,3.7002,1.8501,1.1101
+Tampa Electric,COMMERCIAL OCCUPANCY SENSORS,total program cost,344100.0,1257506.0,False,0.2736,9.1212,4.5606,2.7364
+Tampa Electric,COMMERCIAL LOAD MANAGEMENT- CYCLIC,total program cost,28800.0,0.0,True,,,,
+Tampa Electric,COMMERCIAL LOAD MANAGEMENT- EXTENDED,total program cost,0.0,0.0,True,,,,
+Tampa Electric,COMMERCIAL SMART THERMOSTATS,total program cost,23200.0,212221.0,False,0.1093,3.644,1.822,1.0932
+Tampa Electric,STANDBY GENERATOR,total program cost,4920400.0,0.0,True,,,,
+Tampa Electric,VARIABLE FREQUENCY DRIVE AND MOTOR CONTROLS,total program cost,5500.0,0.0,False,,,,
+Tampa Electric,COMMERCIAL WATER HEATING AND DRAIN HEAT RECOVERY,total program cost,100.0,0.0,False,,,,
+Florida Public Utilities,Residential Energy Survey,direct costs only,60002.0,16716.0,False,3.5895,119.6498,59.8249,35.895
+Florida Public Utilities,Residential Heating and Cooling Upgrade,direct costs only,5660.0,102690.0,False,0.0551,1.8372,0.9186,0.5512
+Florida Public Utilities,Residential Low Income Program,direct costs only,5731.0,7020.0,False,0.8164,27.2127,13.6064,8.1638
+Florida Public Utilities,Residential Small Appliance Program,direct costs only,108.0,924.0,False,0.1169,3.8961,1.9481,1.1688
+Florida Public Utilities,Commercial Heating and Cooling Upgrade,direct costs only,0.0,0.0,False,,,,
+Florida Public Utilities,Commercial Chiller Upgrade,direct costs only,0.0,0.0,False,,,,
+Florida Public Utilities,Commercial Indoor & Outdoor Lighting,direct costs only,0.0,0.0,False,,,,
