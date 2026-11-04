@@ -41,4 +41,4 @@ python3 -m unittest discover -s tests -v
 - `src/eccr.py` - metrics; `scripts/` - fetch, extract, analyze, write the recommendation, render; `tests/`; `outputs/`; `docs/`
 
 ## Sources
-Utility annual DSM reports: `floridapsc.com/pscfiles/website-files/PDF/Utilities/Electricgas/ARDemandSide/2025/` (one PDF per utility). ECCR true-up exhibits (Docket 20260002-EG): FPL `floridapsc.com/library/filings/2026/02616-2026/02616-2026.pdf`, Duke `.../02608-2026/02608-2026.pdf`, Tampa Electric `.../02603-2026/02603-2026.pdf`. Goals: Orders PSC-2024-0505-FOF-EG (FPL), PSC-2024-0429-FOF-EG (Duke), PSC-2024-0430-FOF-EG (Tampa Electric), PSC-2024-0431-FOF-EG (FPUC).
+Utility annual DSM reports: `floridapsc.com/pscfiles/website-files/PDF/Utilities/Electricgas/ARDemandSide/2025/` (one PDF per utility). ECCR true-up exhibits (Docket 20260002-EG): FPL `floridapsc.com/library/filings/2026/02616-2026/02616-2026.pdf`, Duke `.../02608-2026/02608-2026.pdf`, Tampa Electric `.../02603-2026/02603-2026.pdf`. Goals: Orders PSC-2024-0505-FOF-EG (FPL), PSC-2024-0429-FOF-EG (Duke), PSC-2024-0430-FOF-EG (Tampa Electric), PSC-2024-0431-FOF-EG (FPUC). 
