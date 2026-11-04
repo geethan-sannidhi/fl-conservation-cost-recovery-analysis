@@ -6,7 +6,9 @@ A reviewer-style screen of the energy-conservation programs reported by Florida'
 
 **SQL:** [sql/](sql/README.md) has the same analysis as SQLite queries (goals, savings and cost reconciliation, program screen, sensitivity) over `data/conservation_2025.sqlite`; tests check every query against the Python results.
 
-**Read first:** [docs/recommendation.pdf](docs/recommendation.pdf), the full review in staff-recommendation format (case background, seven issues each with a recommendation and analysis, three figures, appendices; 10 pages plus 5 of appendices). The same content is in [docs/recommendation.md](docs/recommendation.md). A two-page summary is in [docs/memo.md](docs/memo.md); assumptions in [docs/METHODOLOGY.md](docs/METHODOLOGY.md); reconciliation tables in [outputs/checks.md](outputs/checks.md).
+**Requirements check:** [docs/REQUIREMENTS.md](docs/REQUIREMENTS.md) checks each utility's filings against Rule 25-17.0021(6) (annual DSM report contents), the 2024 goals orders and Rule 25-17.015 (ECCR true-up), with evidence for every item, and lists where the filings don't line up with the requirements.
+
+**Read first:** [docs/recommendation.pdf](docs/recommendation.pdf), the full review in staff-recommendation format (case background, eight issues each with a recommendation and analysis, three figures, appendices; 10 pages plus 5 of appendices). The same content is in [docs/recommendation.md](docs/recommendation.md). A two-page summary is in [docs/memo.md](docs/memo.md); assumptions in [docs/METHODOLOGY.md](docs/METHODOLOGY.md); reconciliation tables in [outputs/checks.md](outputs/checks.md).
 
 ## Scope
 - **All 4 investor-owned utilities**: 67 programs parsed from the 2025 DSM annual reports of Florida Power & Light, Duke Energy Florida, Tampa Electric and Florida Public Utilities.
@@ -22,6 +24,7 @@ Requires Python 3 and `pdftotext` (poppler).
 scripts/fetch_sources.sh /tmp/sources            # downloads PDFs from floridapsc.com, converts to text
 python3 scripts/extract_programs.py /tmp/sources data/programs_2025.csv
 python3 scripts/analyze.py                       # writes outputs/*.csv, outputs/checks.md, docs/memo.md
+python3 scripts/check_requirements.py --sources /tmp/sources   # outputs/requirements_checklist.csv, docs/REQUIREMENTS.md
 python3 scripts/write_recommendation.py          # writes docs/recommendation.md and docs/figures/*.svg
 python3 scripts/run_queries.py                    # data/conservation_2025.sqlite and outputs/sql/*.csv
 python3 scripts/build_excel_model.py             # excel/conservation_review_2025.xlsx (recalculate, then python3 scripts/verify_excel.py)

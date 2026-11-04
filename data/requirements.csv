@@ -1,0 +1,21 @@
+id,rule,requirement,basis
+R6-deadline,Rule 25-17.0021(6) F.A.C.,"Submit an annual report no later than March 1 summarizing the DSM plan and total actual achieved results for the preceding calendar year.",rule_0021
+R6-goals,Rule 25-17.0021(6) F.A.C.,"Compare the achieved KW and KWH reductions with the established Residential and Commercial/Industrial goals.",rule_0021
+R6-a,Rule 25-17.0021(6)(a),"For each approved program: the name of the utility.",rule_0021
+R6-b,Rule 25-17.0021(6)(b),"The name of the program and program start date.",rule_0021
+R6-c,Rule 25-17.0021(6)(c),"The calendar year the report covers.",rule_0021
+R6-d,Rule 25-17.0021(6)(d),"The total number of customers, or other appropriate unit of measure, by customer class for each calendar year of the planning horizon.",rule_0021
+R6-e,Rule 25-17.0021(6)(e),"The total number of customers eligible to participate in the program for each calendar year of the planning horizon.",rule_0021
+R6-f,Rule 25-17.0021(6)(f),"The total number of customers projected to participate in the program for each calendar year of the planning horizon.",rule_0021
+R6-g,Rule 25-17.0021(6)(g),"The potential cumulative penetration level to date: projected participating customers to date as a percentage of total eligible customers in the class.",rule_0021
+R6-h,Rule 25-17.0021(6)(h),"The actual number of program participants and the current cumulative number of program participants.",rule_0021
+R6-i,Rule 25-17.0021(6)(i),"The actual cumulative penetration level: actual cumulative participants as a percentage of eligible customers in the class.",rule_0021
+R6-j,Rule 25-17.0021(6)(j),"A comparison of the actual cumulative penetration level to the potential cumulative penetration level.",rule_0021
+R6-k,Rule 25-17.0021(6)(k),"A justification for any variance greater than 15% from the annual goals established by the Commission.",rule_0021
+R6-l,Rule 25-17.0021(6)(l),"Annual KWH, winter KW and summer KW reductions, at the meter and the generation level, per installation and program total.",rule_0021
+R6-m,Rule 25-17.0021(6)(m),"The per installation cost and the total program cost of the utility.",rule_0021
+R6-n,Rule 25-17.0021(6)(n),"The net benefits for measures installed during the reporting period, annualized over the life of the program (annual benefits = Bnpv x d / [1 - (1+d)^-n]).",rule_0021
+O-goals,2024 goals orders,"The goals the report compares against are the annual goals the Commission set in the utility's 2024 goals order.",orders
+E-1a,Rule 25-17.015(1)(a) F.A.C.,"An annual final true-up showing the common costs, individual program costs and revenues, and actual total ECCR revenues for the most recent 12-month historical period, with a comparison to the costs and revenues previously estimated.",rule_015
+E-3,Rule 25-17.015(3) F.A.C.,"A list of the account and subaccount numbers used for ECCR.",rule_015
+E-5,Rule 25-17.015(5) F.A.C.,"All data sources and calculations used to substantiate claims of potential energy savings included in advertisements.",rule_015

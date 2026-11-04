@@ -1,5 +1,5 @@
 utility,achieved_gwh,goal_gwh,achieved_summer_mw,goal_summer_mw,achieved_winter_mw,goal_winter_mw,basis,goals_order,source
 Florida Power & Light,102.57,100.08,54.81,46.06,38.76,31.44,at generator,PSC-2024-0505-FOF-EG,FPL 2025 DSM Annual Report p.1
-Duke Energy Florida,65,56,51,28,61,35,at generator (report rounds to whole MW/GWh),PSC-2024-0429-FOF-EG,DEF 2025 DSM Annual Report p.1 (Total)
+Duke Energy Florida,65,55,51,28,61,35,at generator (report rounds to whole MW/GWh; energy goal per order - report shows 56),PSC-2024-0429-FOF-EG,DEF 2025 DSM Annual Report p.1 (Total)
 Tampa Electric,65.8,47.0,16.1,14.3,16.8,19.4,at generator (combined residential + C/I),PSC-2024-0430-FOF-EG,TECO 2025 DSM Accomplishments Report (summary and goals table)
 Florida Public Utilities,0.127,0.517,0.012,0.077,0.074,0.176,at generator (as printed in Table 2-3; program pages sum to 0.131 GWh - see checks),PSC-2024-0431-FOF-EG,FPUC 2025 Annual Conservation Report Table 2-3

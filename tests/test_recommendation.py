@@ -13,7 +13,7 @@ class Recommendation(unittest.TestCase):
         sys.path.insert(0, str(ROOT / "scripts"))
 
     def test_has_all_issues_and_disclaimer(self):
-        for i in range(1, 8):
+        for i in range(1, 9):
             self.assertIn(f"### Issue {i}:", self.doc)
         self.assertIn("not a Florida Public Service Commission document", self.doc)
 

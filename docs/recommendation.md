@@ -19,7 +19,8 @@
 | 4 | Are there ECCR costs that do not appear in any DSM program report? | Yes: $55.3 million (16% of the three utilities' combined ECCR program costs), mostly FPL's closed Commercial/Industrial Load Control program and administrative lines. Request support for each line. |
 | 5 | Which energy-efficiency programs look cost-effective on a screening basis, and which need more support? | Of 26 programs costing at least $100,000, 8 appear cost-effective on both measures used, 11 give mixed signals and 6 need more support (see Table 6). |
 | 6 | How sensitive are the cost results to participation? | Moderately. A 20% participation shortfall raises cost per kWh by about 7.5% under the assumed cost structure; 2 of 26 programs would change screening tier. |
-| 7 | What reporting improvements should be requested? | Consistent net-benefit methodology, measure lives, cost basis disclosure and reconciliation tables (see Issue 7). |
+| 7 | Do the filings meet the Commission's reporting requirements? | Mostly. FPL's filings meet all 20 requirements checked. Duke and Tampa Electric do not justify all goal variances above 15% and include no advertising savings-claim documentation; Duke's report shows a 2025 energy goal (56 GWh) that differs from its order (55 GWh); FPUC's report omits several program items and doesn't match its 2024 goals order. |
+| 8 | What reporting improvements should be requested? | Consistent net-benefit methodology, measure lives, cost basis disclosure and reconciliation tables (see Issue 8). |
 
 ---
 
@@ -51,16 +52,16 @@
 | Utility | Annual energy (GWh) | Summer peak (MW) | Winter peak (MW) |
 |---|---|---|---|
 | Florida Power & Light | 102.57 / 100.08 (102%) | 54.81 / 46.06 (119%) | 38.76 / 31.44 (123%) |
-| Duke Energy Florida | 65 / 56 (116%) | 51 / 28 (182%) | 61 / 35 (174%) |
+| Duke Energy Florida | 65 / 55 (118%) | 51 / 28 (182%) | 61 / 35 (174%) |
 | Tampa Electric | 65.8 / 47.0 (140%) | 16.1 / 14.3 (113%) | 16.8 / 19.4 (87%) |
 | Florida Public Utilities | 0.127 / 0.517 (25%) | 0.012 / 0.077 (16%) | 0.074 / 0.176 (42%) |
 
 ![Figure 1](figures/fig1_goal_achievement.svg)
 
 - **FPL** exceeded all three goals; its energy savings were 2% above goal, and its demand savings 19-23% above.
-- **Duke** reports figures rounded to whole MW and GWh, with variances of +18% (energy), +80% (summer) and +72% (winter) against its total goals. Most of the demand margin comes from commercial/industrial programs, where Duke reports variances of +597% (winter) and +300% (summer) against small goals of 4 and 7 MW.
+- **Duke** reports figures rounded to whole MW and GWh, with variances of +18% (energy), +80% (summer) and +72% (winter) against its total goals. Most of the demand margin comes from commercial/industrial programs, where Duke reports variances of +597% (winter) and +300% (summer) against small goals of 4 and 7 MW. Duke's report shows a 2025 energy goal of 56 GWh, but its goals order sets 55 GWh (the 56 is the 2026 goal); this review uses the order's figure (Issue 7).
 - **Tampa Electric** exceeded its energy goal by 40% and its summer goal, but reached 86.7% of its combined winter goal as reported (86.0% residential, 88.4% commercial/industrial). It moved to its new 2025-2034 program portfolio on June 1, 2025, after the plan was approved in April, and states that it would have met all 2025 goals had the new plan started January 1.
-- **FPUC** describes 2025 as a transition year: residential programs were restructured and commercial programs had no participants. The goals are small in absolute terms (0.517 GWh), so a handful of additional participants moves the result substantially.
+- **FPUC** describes 2025 as a transition year: residential programs were restructured and commercial programs had no participants. The goals are small in absolute terms (0.517 GWh), so a handful of additional participants moves the result substantially. FPUC's report also compares against goals that differ from its 2024 goals order; against the order's 0.465 GWh, FPUC reached about 28% of its energy goal (Issue 7).
 
 Tampa Electric's and FPUC's achievement figures are affected by the reconciliation issues in Issue 2, but neither issue is large enough to change whether a goal was met.
 
@@ -214,7 +215,44 @@ FPUC computes its net benefits from fuel-only avoided energy costs (5.446 cents/
 
 **Analysis:** If participation changes, savings change in proportion but only part of the cost does: administration, marketing and fixed overhead stay. Three scenarios were tested: 80%, 100% and 120% of actual 2025 participation. The fixed share of cost isn't in the filings; 30% is an assumption, and the per-program results for all three scenarios are in `outputs/participation_sensitivity.csv`. The relationship is simple: with fixed share *f* and participation share *s*, cost per kWh scales by (*f* + (1 - *f*) *s*) / *s*. At *f* = 30%, that is 1.075 at 80% and 0.950 at 120%. Programs near a tier threshold, or with more fixed cost than assumed (audits, education, new programs in their first year), are the most exposed.
 
-### Issue 7: What reporting improvements should be requested?
+### Issue 7: Do the filings meet the Commission's reporting requirements?
+
+**Recommendation:** Mostly, with specific gaps to raise with three utilities. FPL's DSM report and ECCR filing meet all 20 requirements checked. Ask Duke and Tampa Electric to justify every goal variance above 15% as Rule 25-17.0021(6)(k) requires, and to confirm whether their 2025 advertising made energy-savings claims requiring documentation under Rule 25-17.015(5). Ask Duke to correct the 2025 energy goal in its report to the order's 55 GWh. Ask FPUC to add program start dates, eligible customers and the penetration levels the rule defines, to report net benefits on the rule's annualized basis, and to restate its goal comparison against Order PSC-2024-0431-FOF-EG.
+
+**Analysis:** Each utility's 2025 DSM report was checked against the annual-report requirements of Rule 25-17.0021(6), F.A.C. (items (a)-(n) plus the deadline and the residential and commercial/industrial goal comparison) and against its 2024 goals order. The FPL, Duke and Tampa Electric ECCR true-up filings were checked against the Rule 25-17.015 requirements quoted in those filings. Every program page in the FPL, Duke and Tampa Electric reports was searched for each required item; FPUC's table-based report, the variance explanations, the goal values and the ECCR items were reviewed by hand. The full checklist, with evidence for every cell, is in `docs/REQUIREMENTS.md`.
+
+*Table 7. Requirements checked, by result*
+
+| Utility | Met | Partly met | Not met | Not found | Can't determine / not reviewed |
+|---|---|---|---|---|---|
+| Florida Power & Light | 20 | 0 | 0 | 0 | 0 |
+| Duke Energy Florida | 16 | 0 | 1 | 2 | 1 |
+| Tampa Electric | 18 | 1 | 0 | 1 | 0 |
+| Florida Public Utilities | 9 | 3 | 1 | 3 | 4 |
+
+*Where the filings do not line up with the requirements*
+
+| Utility | Requirement | Result | What was found |
+|---|---|---|---|
+| FPUC | Rule 25-17.0021(6)(b) | Partly met | Program names given; no program start dates found. |
+| FPUC | Rule 25-17.0021(6)(e) | Not found | No count of eligible customers; tables give total customers and projected customers only. |
+| FPUC | Rule 25-17.0021(6)(g) | Not found | No potential penetration level (projected participants as a share of eligible customers). |
+| FPUC | Rule 25-17.0021(6)(i) | Not found | 'Total Penetration Level' is actual participants as a share of projected participants (e.g. 21 / 148 = 14.19%), not of eligible customers. |
+| FPUC | Rule 25-17.0021(6)(j) | Partly met | Actual participation is shown against projected participation, but not the two penetration levels the rule defines. |
+| Duke | Rule 25-17.0021(6)(k) | Not found | Variances above 15% (total: winter +72%, summer +80%, energy +18%; commercial/industrial: winter +597%, summer +300%, energy +146%) with no justification found. The summary says only that savings were 'consistent with' the goals. |
+| Tampa Electric | Rule 25-17.0021(6)(k) | Partly met | Explains the winter demand shortfall (86.7% of goal, within 15%) and the June 1 plan transition, but no justification found for variances above 15%: commercial/industrial energy +72.4%, residential summer demand +21.8%, combined energy +39.9%. |
+| FPUC | Rule 25-17.0021(6)(n) | Partly met | Table 4-2 reports a 10-year NPV of fuel-only benefits minus cost, not the annualized figure the rule's formula defines. |
+| Duke | 2024 goals orders | Not met | Total 2025 energy goal shown as 56 GWh; Order PSC-2024-0429-FOF-EG sets 55 GWh (50 residential + 5 non-residential; 56 is the 2026 goal). All other 2025 values match. Duke's reported +18% variance is consistent with 55, so the 56 appears to be a typo. |
+| FPUC | 2024 goals orders | Not met | Cites the 2014 order (PSC-14-0696-FOF-EU), not Order PSC-2024-0431-FOF-EG. States that the order's goals are at the generator, but its generator-level goals (0.517 GWh, 0.176 winter MW, 0.077 summer MW) do not match the 2024 order (0.465 GWh, 0.17 winter MW); the order's values appear in its meter-level table instead. Against 0.465 GWh, FPUC's generator-level program total (0.131 GWh) is 28% of goal, not the 25% reported. |
+| Duke | Rule 25-17.015(5) F.A.C. | Not found | No advertising savings-claim documentation found in the filing reviewed (Doc. 02608-2026). The requirement applies only to ads that claim energy savings; Duke reports $1.5 million of 2025 conservation advertising. |
+| Tampa Electric | Rule 25-17.015(5) F.A.C. | Not found | No advertising savings-claim documentation found in the filings reviewed (Docs. 02602/02603-2026). The requirement applies only to ads that claim energy savings; Tampa Electric reports $1.3 million of 2025 conservation advertising. |
+
+Notes:
+- **Variance justifications** matter because a large variance in either direction can signal goals set too low or programs reported inconsistently. FPL and FPUC explain theirs; Duke's commercial/industrial demand results were six and four times their goals with no explanation in the report.
+- **Advertising documentation** is required only for advertisements that claim energy savings. "Not found" means it was not in the filings reviewed, not that a rule was broken.
+- **Rule text.** Rule 25-17.0021 is checked against its text as proposed in the Commission staff recommendation of February 23, 2023, adopted May 18, 2023 (Order PSC-2023-0165-FOF-EU). The adopted text could not be retrieved, so any change made at adoption is not reflected. Rule 25-17.015 is checked only for the subsections the utilities quote.
+
+### Issue 8: What reporting improvements should be requested?
 
 **Recommendation:** Request the following in future DSM annual reports and ECCR true-up filings. Each addresses a gap that limited this review.
 
@@ -224,6 +262,7 @@ FPUC computes its net benefits from fuel-only avoided energy costs (5.446 cents/
 4. **Include a reconciliation table** from program pages to summary savings totals, at both the meter and the generator, and correct FPUC's Table 2-3/2-6 labels (Issue 2).
 5. **Include a bridge from DSM-report program costs to ECCR true-up costs**, listing every ECCR line with no program page and its allocation basis (Issues 3 and 4).
 6. **Report referrals or downstream participation** for audit and education programs, whose value isn't captured by their own credited savings (Issue 5).
+7. **Justify every variance above 15%**, in either direction, and cite the current goals order with goal values that match it (Issue 7).
 
 ---
 
@@ -319,3 +358,4 @@ The line-by-line tables, including the mapping of each DSM program to its ECCR l
 - FPL, *2025 Demand-Side Management Annual Report* (Feb. 27, 2026); Duke Energy Florida, *Summary of 2025 Demand Side Management Achievements*; Tampa Electric, *2025 Demand Side Management Program Accomplishments Report*; FPUC, *2025 Annual Conservation Report* (revised, March 6, 2026). All at `floridapsc.com/pscfiles/website-files/PDF/Utilities/Electricgas/ARDemandSide/2025/`.
 - Docket 20260002-EG, ECCR 2025 final true-up, filed May 5, 2026: FPL testimony of L. Noack and Exhibit LSN-1 (Document No. 02616-2026); Duke testimony of K. Rodriguez and Exhibit KR-1T (02608-2026); Tampa Electric testimony of R. Johnson and Exhibit RGJ-1 (02603-2026).
 - Goals orders: PSC-2024-0505-FOF-EG (FPL), PSC-2024-0429-FOF-EG (Duke), PSC-2024-0430-FOF-EG (Tampa Electric), PSC-2024-0431-FOF-EG (FPUC).
+- Rule 25-17.0021, F.A.C.: Commission staff recommendation, Docket 20200181-EU (Commission Conference of March 7, 2023, Item 2, Attachment A); adoption Order PSC-2023-0165-FOF-EU (May 18, 2023). Rule 25-17.015, F.A.C.: as quoted in the 2025 ECCR true-up filings.
