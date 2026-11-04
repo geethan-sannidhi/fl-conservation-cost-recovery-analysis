@@ -2,6 +2,8 @@
 
 A reviewer-style screen of the energy-conservation programs reported by Florida's four investor-owned electric utilities. It reads the utilities' public filings with the Florida Public Service Commission, reconciles program costs in their annual DSM reports against their Energy Conservation Cost Recovery (ECCR) true-up filings, checks savings totals, computes cost per kWh saved and a simple payback measure, tests sensitivity to participation, and writes a short staff-style memo.
 
+**Excel model:** [excel/conservation_review_2025.xlsx](excel/conservation_review_2025.xlsx) reproduces the whole review with live formulas (assumptions, program screen, goals, savings and cost reconciliation, summary); it matches the Python results (`scripts/verify_excel.py`).
+
 **Read first:** [docs/recommendation.pdf](docs/recommendation.pdf), the full review in staff-recommendation format (case background, seven issues each with a recommendation and analysis, three figures, appendices; 10 pages plus 5 of appendices). The same content is in [docs/recommendation.md](docs/recommendation.md). A two-page summary is in [docs/memo.md](docs/memo.md); assumptions in [docs/METHODOLOGY.md](docs/METHODOLOGY.md); reconciliation tables in [outputs/checks.md](outputs/checks.md).
 
 ## Scope
@@ -19,6 +21,7 @@ scripts/fetch_sources.sh /tmp/sources            # downloads PDFs from floridaps
 python3 scripts/extract_programs.py /tmp/sources data/programs_2025.csv
 python3 scripts/analyze.py                       # writes outputs/*.csv, outputs/checks.md, docs/memo.md
 python3 scripts/write_recommendation.py          # writes docs/recommendation.md and docs/figures/*.svg
+python3 scripts/build_excel_model.py             # excel/conservation_review_2025.xlsx (recalculate, then python3 scripts/verify_excel.py)
 python3 scripts/render_pdf.py && node scripts/render_pdf.js   # optional: HTML + PDF (needs `markdown` and Playwright)
 python3 -m unittest discover -s tests -v
 ```
