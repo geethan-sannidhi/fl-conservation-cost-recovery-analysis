@@ -1,4 +1,4 @@
-import csv, sys
+import csv, json, sys
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
@@ -13,6 +13,7 @@ for p in progs:
     a = eccr.analyzable(p)
     r = {"utility": p["utility"], "program": p["program"], "cost_basis": eccr.cost_basis(p["utility"]),
          "program_cost_usd": p["cost"],
+         "utility_net_benefits_usd": float(p["net_benefits_thousands"]) * 1000 if p.get("net_benefits_thousands") not in (None, "") else None,
          "annual_kwh_at_meter": p["kwh"], "demand_program": p["demand_program"],
          "cost_per_kwh_usd": eccr.cost_per_kwh(p["cost"], p["kwh"]) if a else None}
     for v in eccr.AVOIDED_COST_SCENARIOS:
@@ -58,6 +59,7 @@ lines += ["", "**FPUC meter/generator labels.** FPUC's program pages sum to "
           "and the winter MW totals in the same tables are labelled correctly.", ""]
 
 summary = {}
+recon_rows = []
 for u in UTILS:
     rows_u = [r for r in eccr_rows if r["utility"] == u]
     line_sum = sum(int(r["total_cost_usd"]) for r in rows_u)
@@ -84,6 +86,7 @@ for u in UTILS:
         ok = abs(d - e) <= tol * len(dnames)
         n_ok += ok; n_bad += not ok
         lines.append(f"| {ename} | {'; '.join(dnames)} | {d:,.0f} | {e:,} | {d - e:+,.0f} | {'yes' if ok else 'NO'} |")
+        recon_rows.append({"utility": u, "eccr_program": ename, "dsm_programs": dnames, "dsm_usd": d, "eccr_usd": e, "ok": bool(ok)})
     missing = [n for n in dsm if n not in {m["dsm_program"] for m in m_u}]
     for n in missing:
         lines.append(f"| (unmapped) | {n} | {dsm[n]['cost']:,.0f} | - | - | NOT MAPPED |")
@@ -102,6 +105,9 @@ lines += ["## Florida Public Utilities: costs",
           "filings reviewed, so these costs are not cross-checked and are not comparable to the other utilities' "
           "fully loaded program costs.", ""]
 (out / "checks.md").write_text("\n".join(lines) + "\n")
+json.dump({"summary": summary, "rows": recon_rows,
+           "line_sums": {u: sum(int(r["total_cost_usd"]) for r in eccr_rows if r["utility"] == u) for u in UTILS}},
+          open(out / "reconciliation.json", "w"), indent=1)
 print("\n".join(lines))
 
 # 4. staff-style memo (numbers generated from the data, not typed by hand)

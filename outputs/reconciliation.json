@@ -1,0 +1,669 @@
+{
+ "summary": {
+  "Florida Power & Light": {
+   "matched": 14,
+   "mismatched": 0,
+   "extra_total": 49157456,
+   "extra_share": 0.29139442709548835,
+   "extra": [
+    [
+     "Cogeneration & Small Power Production",
+     -105338
+    ],
+    [
+     "Commercial/Industrial Load Control",
+     36537623
+    ],
+    [
+     "Conservation Research & Development",
+     63499
+    ],
+    [
+     "Common Expenses",
+     7523306
+    ],
+    [
+     "Energy Select (Regulatory Asset)",
+     5138366
+    ]
+   ],
+   "ct2_total": 168697310,
+   "unmapped": []
+  },
+  "Duke Energy Florida": {
+   "matched": 12,
+   "mismatched": 0,
+   "extra_total": 3731877,
+   "extra_share": 0.030088569008944122,
+   "extra": [
+    [
+     "Technology Development",
+     379903
+    ],
+    [
+     "Qualifying Facility",
+     625951
+    ],
+    [
+     "Conservation Program Admin",
+     2726023
+    ]
+   ],
+   "ct2_total": 124029727,
+   "unmapped": []
+  },
+  "Tampa Electric": {
+   "matched": 29,
+   "mismatched": 2,
+   "extra_total": 2366304,
+   "extra_share": 0.049661567160099174,
+   "extra": [
+    [
+     "Prime Time",
+     37054
+    ],
+    [
+     "Cogeneration",
+     34519
+    ],
+    [
+     "Conservation Research and Development",
+     118018
+    ],
+    [
+     "Renewable Energy Program (Sun to Go)",
+     51578
+    ],
+    [
+     "Common Expenses",
+     1220738
+    ],
+    [
+     "Integrated Renewable Energy System (Pilot)",
+     904397
+    ]
+   ],
+   "ct2_total": 47648597,
+   "unmapped": []
+  }
+ },
+ "rows": [
+  {
+   "utility": "Florida Power & Light",
+   "eccr_program": "Residential Home Energy Survey",
+   "dsm_programs": [
+    "Residential Home Energy Survey"
+   ],
+   "dsm_usd": 13321000.0,
+   "eccr_usd": 13321491,
+   "ok": true
+  },
+  {
+   "utility": "Florida Power & Light",
+   "eccr_program": "Residential Load Management (\"On Call\")",
+   "dsm_programs": [
+    "Residential Load Management (On Call\u00ae)"
+   ],
+   "dsm_usd": 41657000.0,
+   "eccr_usd": 41657186,
+   "ok": true
+  },
+  {
+   "utility": "Florida Power & Light",
+   "eccr_program": "Residential HVAC On-Bill Pilot",
+   "dsm_programs": [
+    "Residential HVAC On-Bill Pilot"
+   ],
+   "dsm_usd": 0.0,
+   "eccr_usd": 0,
+   "ok": true
+  },
+  {
+   "utility": "Florida Power & Light",
+   "eccr_program": "Residential HVAC",
+   "dsm_programs": [
+    "Residential HVAC"
+   ],
+   "dsm_usd": 3742000.0,
+   "eccr_usd": 3742367,
+   "ok": true
+  },
+  {
+   "utility": "Florida Power & Light",
+   "eccr_program": "Residential New Construction (BuildSmart)",
+   "dsm_programs": [
+    "Residential New Construction (BuildSmart\u00ae)"
+   ],
+   "dsm_usd": 724000.0,
+   "eccr_usd": 723564,
+   "ok": true
+  },
+  {
+   "utility": "Florida Power & Light",
+   "eccr_program": "Residential Ceiling Insulation",
+   "dsm_programs": [
+    "Residential Ceiling Insulation"
+   ],
+   "dsm_usd": 1709000.0,
+   "eccr_usd": 1708847,
+   "ok": true
+  },
+  {
+   "utility": "Florida Power & Light",
+   "eccr_program": "Residential Low Income Renter Pilot",
+   "dsm_programs": [
+    "Residential Low-Income Renter Pilot"
+   ],
+   "dsm_usd": 5000.0,
+   "eccr_usd": 5099,
+   "ok": true
+  },
+  {
+   "utility": "Florida Power & Light",
+   "eccr_program": "Residential Low-Income Weatherization",
+   "dsm_programs": [
+    "Residential Low-Income Weatherization"
+   ],
+   "dsm_usd": 7494000.0,
+   "eccr_usd": 7493814,
+   "ok": true
+  },
+  {
+   "utility": "Florida Power & Light",
+   "eccr_program": "Business Energy Evaluation",
+   "dsm_programs": [
+    "Business Energy Evaluation"
+   ],
+   "dsm_usd": 5055000.0,
+   "eccr_usd": 5055283,
+   "ok": true
+  },
+  {
+   "utility": "Florida Power & Light",
+   "eccr_program": "Business On Call",
+   "dsm_programs": [
+    "Business On Call"
+   ],
+   "dsm_usd": 2582000.0,
+   "eccr_usd": 2582499,
+   "ok": true
+  },
+  {
+   "utility": "Florida Power & Light",
+   "eccr_program": "Commercial/Industrial Demand Reduction",
+   "dsm_programs": [
+    "Commercial/Industrial Demand Reduction"
+   ],
+   "dsm_usd": 35177000.0,
+   "eccr_usd": 35177226,
+   "ok": true
+  },
+  {
+   "utility": "Florida Power & Light",
+   "eccr_program": "Business Heating, Ventilating & A/C",
+   "dsm_programs": [
+    "Business Heating, Ventilating & Air Conditioning"
+   ],
+   "dsm_usd": 7488000.0,
+   "eccr_usd": 7488400,
+   "ok": true
+  },
+  {
+   "utility": "Florida Power & Light",
+   "eccr_program": "Business Lighting",
+   "dsm_programs": [
+    "Business Lighting"
+   ],
+   "dsm_usd": 570000.0,
+   "eccr_usd": 570182,
+   "ok": true
+  },
+  {
+   "utility": "Florida Power & Light",
+   "eccr_program": "Business Custom Incentive",
+   "dsm_programs": [
+    "Business Custom Incentive"
+   ],
+   "dsm_usd": 14000.0,
+   "eccr_usd": 13897,
+   "ok": true
+  },
+  {
+   "utility": "Duke Energy Florida",
+   "eccr_program": "Home Energy Check",
+   "dsm_programs": [
+    "Home Energy Check"
+   ],
+   "dsm_usd": 5611000.0,
+   "eccr_usd": 5611389,
+   "ok": true
+  },
+  {
+   "utility": "Duke Energy Florida",
+   "eccr_program": "Residential Incentive Program",
+   "dsm_programs": [
+    "Residential Incentive Program (f/k/a Home Energy Improvement)"
+   ],
+   "dsm_usd": 4414000.0,
+   "eccr_usd": 4413679,
+   "ok": true
+  },
+  {
+   "utility": "Duke Energy Florida",
+   "eccr_program": "Multi-Family New Builder Construction",
+   "dsm_programs": [
+    "Multi-Family New Builder Construction"
+   ],
+   "dsm_usd": 114000.0,
+   "eccr_usd": 113862,
+   "ok": true
+  },
+  {
+   "utility": "Duke Energy Florida",
+   "eccr_program": "Neighborhood Energy Saver",
+   "dsm_programs": [
+    "Neighborhood Energy Saver"
+   ],
+   "dsm_usd": 12290000.0,
+   "eccr_usd": 12290472,
+   "ok": true
+  },
+  {
+   "utility": "Duke Energy Florida",
+   "eccr_program": "Low Income Weatherization Assistance",
+   "dsm_programs": [
+    "Low Income Weatherization Assistance"
+   ],
+   "dsm_usd": 362000.0,
+   "eccr_usd": 361552,
+   "ok": true
+  },
+  {
+   "utility": "Duke Energy Florida",
+   "eccr_program": "Load Management (Residential & Commercial)",
+   "dsm_programs": [
+    "Residential Load Management (a/k/a Residential Energy Management, Energy-Wise)",
+    "Commercial Energy Management"
+   ],
+   "dsm_usd": 35551000.0,
+   "eccr_usd": 35550302,
+   "ok": true
+  },
+  {
+   "utility": "Duke Energy Florida",
+   "eccr_program": "Business Energy Check",
+   "dsm_programs": [
+    "Business Energy Check"
+   ],
+   "dsm_usd": 344000.0,
+   "eccr_usd": 344242,
+   "ok": true
+  },
+  {
+   "utility": "Duke Energy Florida",
+   "eccr_program": "Better Business a/k/a Smart $aver Business (NRBBUS)",
+   "dsm_programs": [
+    "Smart $aver Business"
+   ],
+   "dsm_usd": 2249000.0,
+   "eccr_usd": 2249447,
+   "ok": true
+  },
+  {
+   "utility": "Duke Energy Florida",
+   "eccr_program": "Smart $aver Custom Incentive",
+   "dsm_programs": [
+    "Smart $aver Custom"
+   ],
+   "dsm_usd": 96000.0,
+   "eccr_usd": 95618,
+   "ok": true
+  },
+  {
+   "utility": "Duke Energy Florida",
+   "eccr_program": "Interruptible Service",
+   "dsm_programs": [
+    "Interruptible Service"
+   ],
+   "dsm_usd": 51083000.0,
+   "eccr_usd": 51082938,
+   "ok": true
+  },
+  {
+   "utility": "Duke Energy Florida",
+   "eccr_program": "Standby Generation",
+   "dsm_programs": [
+    "Standby Generation"
+   ],
+   "dsm_usd": 7348000.0,
+   "eccr_usd": 7347835,
+   "ok": true
+  },
+  {
+   "utility": "Duke Energy Florida",
+   "eccr_program": "Curtailable Service",
+   "dsm_programs": [
+    "Curtailable Service"
+   ],
+   "dsm_usd": 837000.0,
+   "eccr_usd": 836514,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Residential Walk-Through Energy Audit",
+   "dsm_programs": [
+    "RESIDENTIAL ALTERNATE AUDIT (aka Walk-Thru Audit or EA Free)"
+   ],
+   "dsm_usd": 2216300.0,
+   "eccr_usd": 2216300,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Residential Customer Assisted Audit",
+   "dsm_programs": [
+    "RESIDENTIAL CUSTOMER ASSISTED AUDITS"
+   ],
+   "dsm_usd": 420500.0,
+   "eccr_usd": 420514,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Residential Computer Assisted Audit",
+   "dsm_programs": [
+    "RESIDENTIAL RCS AUDIT (Computer Assisted - Paid)"
+   ],
+   "dsm_usd": 300.0,
+   "eccr_usd": 304,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Residential Ceiling Insulation",
+   "dsm_programs": [
+    "RESIDENTIAL CEILING INSULATION"
+   ],
+   "dsm_usd": 414100.0,
+   "eccr_usd": 414053,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Residential Duct Repair",
+   "dsm_programs": [
+    "RESIDENTIAL DUCT REPAIR"
+   ],
+   "dsm_usd": 66600.0,
+   "eccr_usd": 66619,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Energy and Renewable Education, Awareness and Agency Outreach",
+   "dsm_programs": [
+    "ENERGY AND RENEWABLE EDUCATION, AWARENESS AND AGENCY OUTREACH"
+   ],
+   "dsm_usd": 95200.0,
+   "eccr_usd": 95221,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Energy Star Multi-Family",
+   "dsm_programs": [
+    "ENERGY STAR for NEW MULTI-FAMILY RESIDENCES"
+   ],
+   "dsm_usd": 400.0,
+   "eccr_usd": 377,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Energy Star for New Homes",
+   "dsm_programs": [
+    "ENERGY STAR for NEW HOMES (formerly RESIDENTIAL NEW CONSTRUCTION)"
+   ],
+   "dsm_usd": 465800.0,
+   "eccr_usd": 465751,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Energy Star Pool Pumps",
+   "dsm_programs": [
+    "ENERGY STAR POOL PUMPS"
+   ],
+   "dsm_usd": 337500.0,
+   "eccr_usd": 337512,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Energy Star Thermostats",
+   "dsm_programs": [
+    "ENERGY STAR THERMOSTATS"
+   ],
+   "dsm_usd": 55600.0,
+   "eccr_usd": 55641,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Residential Heating and Cooling",
+   "dsm_programs": [
+    "RESIDENTIAL HEATING AND COOLING TIER1",
+    "RESIDENTIAL HEATING AND COOLING TIER 2"
+   ],
+   "dsm_usd": 448400.0,
+   "eccr_usd": 448447,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Neighborhood Weatherization",
+   "dsm_programs": [
+    "NEIGHBORHOOD WEATHERIZATION"
+   ],
+   "dsm_usd": 2929800.0,
+   "eccr_usd": 2929778,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Energy Planner",
+   "dsm_programs": [
+    "ENERGY PLANNER"
+   ],
+   "dsm_usd": 2132700.0,
+   "eccr_usd": 2132830,
+   "ok": false
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Residential Prime Time Plus",
+   "dsm_programs": [
+    "RESIDENTIAL PRIME TIME PLUS (Residential Load Management)"
+   ],
+   "dsm_usd": 1746800.0,
+   "eccr_usd": 1746862,
+   "ok": false
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Residential Window Replacement",
+   "dsm_programs": [
+    "RESIDENTIAL WINDOW REPLACEMENT"
+   ],
+   "dsm_usd": 176200.0,
+   "eccr_usd": 176232,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Commercial/Industrial Audit (Free)",
+   "dsm_programs": [
+    "FREE COMMERCIAL/INDUSTRIAL AUDIT"
+   ],
+   "dsm_usd": 587500.0,
+   "eccr_usd": 587481,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Comprehensive Commercial/Industrial Audit (Paid)",
+   "dsm_programs": [
+    "COMPREHENSIVE COMMERCIAL/INDUSTRIAL AUDIT"
+   ],
+   "dsm_usd": 200.0,
+   "eccr_usd": 188,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Commercial Chiller",
+   "dsm_programs": [
+    "COMMERCIAL CHILLERS"
+   ],
+   "dsm_usd": 11700.0,
+   "eccr_usd": 11663,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Conservation Value",
+   "dsm_programs": [
+    "CONSERVATION VALUE / CUSTOM ENERGY EFFICIENCY"
+   ],
+   "dsm_usd": 6800.0,
+   "eccr_usd": 6797,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Commercial Cooling",
+   "dsm_programs": [
+    "COMMERCIAL COOLING - DX"
+   ],
+   "dsm_usd": 14600.0,
+   "eccr_usd": 14571,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Demand Response",
+   "dsm_programs": [
+    "COMMERCIAL DEMAND RESPONSE"
+   ],
+   "dsm_usd": 3687500.0,
+   "eccr_usd": 3687454,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Facility Energy Management System",
+   "dsm_programs": [
+    "FACILITY ENERGY MANAGEMENT SYSTEM"
+   ],
+   "dsm_usd": 341600.0,
+   "eccr_usd": 341586,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Industrial Load Management (GLSM 2&3)",
+   "dsm_programs": [
+    "INDUSTRIAL LOAD MANAGEMENT"
+   ],
+   "dsm_usd": 23521600.0,
+   "eccr_usd": 23521555,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Lighting Conditioned Space",
+   "dsm_programs": [
+    "COMMERCIAL LIGHTING - CONDITIONED SPACE"
+   ],
+   "dsm_usd": 207800.0,
+   "eccr_usd": 207827,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Lighting Non-Conditioned Space",
+   "dsm_programs": [
+    "COMMERCIAL LIGHTING - UNCONDITIONED SPACE"
+   ],
+   "dsm_usd": 74600.0,
+   "eccr_usd": 74619,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Lighting Occupancy Sensors",
+   "dsm_programs": [
+    "COMMERCIAL OCCUPANCY SENSORS"
+   ],
+   "dsm_usd": 344100.0,
+   "eccr_usd": 344124,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "CILM (GLSM 1)",
+   "dsm_programs": [
+    "COMMERCIAL LOAD MANAGEMENT- CYCLIC"
+   ],
+   "dsm_usd": 28800.0,
+   "eccr_usd": 28820,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Commercial Smart Thermostats",
+   "dsm_programs": [
+    "COMMERCIAL SMART THERMOSTATS"
+   ],
+   "dsm_usd": 23200.0,
+   "eccr_usd": 23201,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Standby Generator",
+   "dsm_programs": [
+    "STANDBY GENERATOR"
+   ],
+   "dsm_usd": 4920400.0,
+   "eccr_usd": 4920406,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Variable Frequency Drive Control for Compressors",
+   "dsm_programs": [
+    "VARIABLE FREQUENCY DRIVE AND MOTOR CONTROLS"
+   ],
+   "dsm_usd": 5500.0,
+   "eccr_usd": 5490,
+   "ok": true
+  },
+  {
+   "utility": "Tampa Electric",
+   "eccr_program": "Commercial Water Heating",
+   "dsm_programs": [
+    "COMMERCIAL WATER HEATING AND DRAIN HEAT RECOVERY"
+   ],
+   "dsm_usd": 100.0,
+   "eccr_usd": 70,
+   "ok": true
+  }
+ ],
+ "line_sums": {
+  "Florida Power & Light": 168697311,
+  "Duke Energy Florida": 124029727,
+  "Tampa Electric": 47648597
+ }
+}

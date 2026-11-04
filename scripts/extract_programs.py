@@ -42,6 +42,16 @@ for key, (fname, utility) in REPORTS.items():
         name = re.sub(r"\s+", " ", block[0].split("Program Name:")[1]).strip()
         kwh_rows = [l for l in block if re.search(r"(Annual kWh Reduction|^\s*kWh Savings)", l)]
         cost_rows = [l for l in block if re.search(r"Total (Utility )?Program Cost", l)]
+        nb_rows = [l for l in block if "Net Benefits" in l]
+        net_benefits = ""
+        if nb_rows:
+            tail = nb_rows[0].split(":")[-1] if ":" in nb_rows[0] else nb_rows[0].split("($000)")[-1]
+            tail = tail.strip()
+            if tail and not tail.upper().startswith("N/A"):
+                m = re.match(r"^(-)?\(?-?\$?\s*([\d,]+(?:\.\d+)?)\)?", tail)
+                if m:
+                    v = float(m.group(2).replace(",", ""))
+                    net_benefits = -v if (m.group(1) or tail.startswith("(") or tail.startswith("-")) else v
         kwh_meter = kwh_gen = cost = None
         kwh_note = ""
         # TECO reports some programs under two DSM plans (2020-2029 and 2025-2034) and prints a
@@ -65,7 +75,7 @@ for key, (fname, utility) in REPORTS.items():
             if v:
                 cost = v[-1]
         rows.append(dict(utility=utility, program=name, annual_kwh_at_meter=kwh_meter,
-                         annual_kwh_at_generator=kwh_gen, program_cost_thousands=cost, kwh_note=kwh_note,
+                         annual_kwh_at_generator=kwh_gen, program_cost_thousands=cost, net_benefits_thousands=net_benefits, kwh_note=kwh_note,
                          source_file=fname, source_line=s + 1))
 
 # FPUC's report uses a different layout (and two of its tables are images), so its programs are

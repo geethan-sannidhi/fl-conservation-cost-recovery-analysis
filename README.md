@@ -2,7 +2,7 @@
 
 A reviewer-style screen of the energy-conservation programs reported by Florida's four investor-owned electric utilities. It reads the utilities' public filings with the Florida Public Service Commission, reconciles program costs in their annual DSM reports against their Energy Conservation Cost Recovery (ECCR) true-up filings, checks savings totals, computes cost per kWh saved and a simple payback measure, tests sensitivity to participation, and writes a short staff-style memo.
 
-**Read first:** [docs/memo.md](docs/memo.md) (findings) and [docs/METHODOLOGY.md](docs/METHODOLOGY.md) (assumptions and limits). Reconciliation results: [outputs/checks.md](outputs/checks.md).
+**Read first:** [docs/recommendation.pdf](docs/recommendation.pdf), the full review in staff-recommendation format (case background, seven issues each with a recommendation and analysis, three figures, appendices; 10 pages plus 5 of appendices). The same content is in [docs/recommendation.md](docs/recommendation.md). A two-page summary is in [docs/memo.md](docs/memo.md); assumptions in [docs/METHODOLOGY.md](docs/METHODOLOGY.md); reconciliation tables in [outputs/checks.md](outputs/checks.md).
 
 ## Scope
 - **All 4 investor-owned utilities**: 67 programs parsed from the 2025 DSM annual reports of Florida Power & Light, Duke Energy Florida, Tampa Electric and Florida Public Utilities.
@@ -18,6 +18,8 @@ Requires Python 3 and `pdftotext` (poppler).
 scripts/fetch_sources.sh /tmp/sources            # downloads PDFs from floridapsc.com, converts to text
 python3 scripts/extract_programs.py /tmp/sources data/programs_2025.csv
 python3 scripts/analyze.py                       # writes outputs/*.csv, outputs/checks.md, docs/memo.md
+python3 scripts/write_recommendation.py          # writes docs/recommendation.md and docs/figures/*.svg
+python3 scripts/render_pdf.py && node scripts/render_pdf.js   # optional: HTML + PDF (needs `markdown` and Playwright)
 python3 -m unittest discover -s tests -v
 ```
 
@@ -27,7 +29,7 @@ python3 -m unittest discover -s tests -v
 - `data/eccr_2025_costs.csv` - ECCR true-up costs by line for FPL, Duke and Tampa Electric; `data/ct2_totals_2025.csv` - filed totals
 - `data/dsm_to_eccr_map.csv` - which DSM program page corresponds to which ECCR line
 - `data/goals_vs_achieved_2025.csv` - utility-reported achieved vs. goal GWh
-- `src/eccr.py` - metrics; `scripts/` - fetch, extract, analyze; `tests/`; `outputs/`; `docs/`
+- `src/eccr.py` - metrics; `scripts/` - fetch, extract, analyze, write the recommendation, render; `tests/`; `outputs/`; `docs/`
 
 ## Sources
 Utility annual DSM reports: `floridapsc.com/pscfiles/website-files/PDF/Utilities/Electricgas/ARDemandSide/2025/` (one PDF per utility). ECCR true-up exhibits (Docket 20260002-EG): FPL `floridapsc.com/library/filings/2026/02616-2026/02616-2026.pdf`, Duke `.../02608-2026/02608-2026.pdf`, Tampa Electric `.../02603-2026/02603-2026.pdf`. Goals: Orders PSC-2024-0505-FOF-EG (FPL), PSC-2024-0429-FOF-EG (Duke), PSC-2024-0430-FOF-EG (Tampa Electric), PSC-2024-0431-FOF-EG (FPUC).

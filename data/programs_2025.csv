@@ -1,68 +1,68 @@
-utility,program,annual_kwh_at_meter,annual_kwh_at_generator,program_cost_thousands,kwh_note,source_file,source_line
-Florida Power & Light,Residential Home Energy Survey,,,13321.0,,dsm_2025_FloridaPowerandLightCompany.txt,95
-Florida Power & Light,Residential Load Management (On Call®),4886.0,5169.0,41657.0,,dsm_2025_FloridaPowerandLightCompany.txt,136
-Florida Power & Light,Residential HVAC On-Bill Pilot,0.0,0.0,0.0,,dsm_2025_FloridaPowerandLightCompany.txt,183
-Florida Power & Light,Residential HVAC,8811705.0,9321902.0,3742.0,,dsm_2025_FloridaPowerandLightCompany.txt,223
-Florida Power & Light,Residential New Construction (BuildSmart®),7718651.0,8165561.0,724.0,,dsm_2025_FloridaPowerandLightCompany.txt,264
-Florida Power & Light,Residential Ceiling Insulation,16419404.0,17370088.0,1709.0,,dsm_2025_FloridaPowerandLightCompany.txt,305
-Florida Power & Light,Residential Low-Income Renter Pilot,0.0,0.0,5.0,,dsm_2025_FloridaPowerandLightCompany.txt,346
-Florida Power & Light,Residential Low-Income Weatherization,16307942.0,17252172.0,7494.0,,dsm_2025_FloridaPowerandLightCompany.txt,386
-Florida Power & Light,Business Energy Evaluation,,,5055.0,,dsm_2025_FloridaPowerandLightCompany.txt,427
-Florida Power & Light,Business On Call,1054.0,1115.0,2582.0,,dsm_2025_FloridaPowerandLightCompany.txt,468
-Florida Power & Light,Commercial/Industrial Demand Reduction,87481.0,92546.0,35177.0,,dsm_2025_FloridaPowerandLightCompany.txt,516
-Florida Power & Light,"Business Heating, Ventilating & Air Conditioning",29752853.0,31475543.0,7488.0,,dsm_2025_FloridaPowerandLightCompany.txt,564
-Florida Power & Light,Business Lighting,17853658.0,18887385.0,570.0,,dsm_2025_FloridaPowerandLightCompany.txt,606
-Florida Power & Light,Business Custom Incentive,0.0,0.0,14.0,,dsm_2025_FloridaPowerandLightCompany.txt,648
-Duke Energy Florida,Home Energy Check,21054647.0,22292741.0,5611.0,,dsm_2025_DukeEnergyFlorida.txt,141
-Duke Energy Florida,Residential Incentive Program (f/k/a Home Energy Improvement),7667268.0,8118132.0,4414.0,,dsm_2025_DukeEnergyFlorida.txt,181
-Duke Energy Florida,Multi-Family New Builder Construction,99237.0,105073.0,114.0,,dsm_2025_DukeEnergyFlorida.txt,221
-Duke Energy Florida,Neighborhood Energy Saver,20766129.0,21987256.0,12290.0,,dsm_2025_DukeEnergyFlorida.txt,261
-Duke Energy Florida,Low Income Weatherization Assistance,413177.0,437473.0,362.0,,dsm_2025_DukeEnergyFlorida.txt,301
-Duke Energy Florida,"Residential Load Management (a/k/a Residential Energy Management, Energy-Wise)",0.0,0.0,34874.0,,dsm_2025_DukeEnergyFlorida.txt,341
-Duke Energy Florida,Business Energy Check,91840.0,96399.0,344.0,,dsm_2025_DukeEnergyFlorida.txt,385
-Duke Energy Florida,Smart $aver Business,11817979.0,12404722.0,2249.0,,dsm_2025_DukeEnergyFlorida.txt,425
-Duke Energy Florida,Smart $aver Custom,0.0,0.0,96.0,,dsm_2025_DukeEnergyFlorida.txt,465
-Duke Energy Florida,Commercial Energy Management,0.0,0.0,677.0,,dsm_2025_DukeEnergyFlorida.txt,505
-Duke Energy Florida,Interruptible Service,0.0,0.0,51083.0,,dsm_2025_DukeEnergyFlorida.txt,549
-Duke Energy Florida,Standby Generation,0.0,0.0,7348.0,,dsm_2025_DukeEnergyFlorida.txt,592
-Duke Energy Florida,Curtailable Service,0.0,0.0,837.0,,dsm_2025_DukeEnergyFlorida.txt,635
-Tampa Electric,RESIDENTIAL ALTERNATE AUDIT (aka Walk-Thru Audit or EA Free),1023885.0,1081223.0,2216.3,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,808
-Tampa Electric,RESIDENTIAL CUSTOMER ASSISTED AUDITS,9580673.0,10117191.0,420.5,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,862
-Tampa Electric,RESIDENTIAL RCS AUDIT (Computer Assisted - Paid),305.0,322.0,0.3,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,916
-Tampa Electric,RESIDENTIAL CEILING INSULATION,292967.0,309373.0,414.1,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,970
-Tampa Electric,RESIDENTIAL DUCT REPAIR,293544.0,309982.0,66.6,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1023
-Tampa Electric,"ENERGY AND RENEWABLE EDUCATION, AWARENESS AND AGENCY OUTREACH",76590.0,80879.0,95.2,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1072
-Tampa Electric,ENERGY STAR for NEW MULTI-FAMILY RESIDENCES,1716.0,1812.0,0.4,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1125
-Tampa Electric,ENERGY STAR for NEW HOMES (formerly RESIDENTIAL NEW CONSTRUCTION),951230.0,1004499.0,465.8,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1178
-Tampa Electric,ENERGY STAR POOL PUMPS,2852124.0,3011843.0,337.5,,dsm_2025_TampaElectricCompany.txt,1231
-Tampa Electric,ENERGY STAR THERMOSTATS,175296.0,185113.0,55.6,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1274
-Tampa Electric,RESIDENTIAL HEATING AND COOLING TIER1,3068871.0,3240728.0,151.2,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1327
-Tampa Electric,RESIDENTIAL HEATING AND COOLING TIER 2,3027280.0,3196808.0,297.2,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1376
-Tampa Electric,NEIGHBORHOOD WEATHERIZATION,8376036.0,8845094.0,2929.8,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1425
-Tampa Electric,ENERGY PLANNER,209430.0,221158.0,2132.7,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1478
-Tampa Electric,RESIDENTIAL PRIME TIME PLUS (Residential Load Management),0.0,0.0,1746.8,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1532
-Tampa Electric,RESIDENTIAL WINDOW REPLACEMENT,192465.0,203243.0,176.2,,dsm_2025_TampaElectricCompany.txt,1586
-Tampa Electric,FREE COMMERCIAL/INDUSTRIAL AUDIT,449350.0,472716.0,587.5,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1633
-Tampa Electric,COMPREHENSIVE COMMERCIAL/INDUSTRIAL AUDIT,0.0,0.0,0.2,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1687
-Tampa Electric,COMMERCIAL CHILLERS,699660.0,736042.0,11.7,,dsm_2025_TampaElectricCompany.txt,1741
-Tampa Electric,CONSERVATION VALUE / CUSTOM ENERGY EFFICIENCY,0.0,0.0,6.8,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1789
-Tampa Electric,COMMERCIAL COOLING - DX,65411.0,68812.0,14.6,,dsm_2025_TampaElectricCompany.txt,1843
-Tampa Electric,COMMERCIAL DEMAND RESPONSE,0.0,0.0,3687.5,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1891
-Tampa Electric,FACILITY ENERGY MANAGEMENT SYSTEM,25964031.0,27314160.0,341.6,,dsm_2025_TampaElectricCompany.txt,1946
-Tampa Electric,INDUSTRIAL LOAD MANAGEMENT,0.0,0.0,23521.6,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1994
-Tampa Electric,COMMERCIAL LIGHTING - CONDITIONED SPACE,892728.0,939149.0,207.8,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2049
-Tampa Electric,COMMERCIAL LIGHTING - UNCONDITIONED SPACE,672027.0,706972.0,74.6,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2103
-Tampa Electric,COMMERCIAL OCCUPANCY SENSORS,1257506.0,1322896.0,344.1,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2157
-Tampa Electric,COMMERCIAL LOAD MANAGEMENT- CYCLIC,0.0,0.0,28.8,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2211
-Tampa Electric,COMMERCIAL LOAD MANAGEMENT- EXTENDED,0.0,0.0,0.0,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2265
-Tampa Electric,COMMERCIAL SMART THERMOSTATS,212221.0,223257.0,23.2,,dsm_2025_TampaElectricCompany.txt,2318
-Tampa Electric,STANDBY GENERATOR,0.0,0.0,4920.4,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2365
-Tampa Electric,VARIABLE FREQUENCY DRIVE AND MOTOR CONTROLS,0.0,0.0,5.5,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2420
-Tampa Electric,COMMERCIAL WATER HEATING AND DRAIN HEAT RECOVERY,0.0,0.0,0.1,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2469
-Florida Public Utilities,Residential Energy Survey,16716,17220,60.002,Table 3-1 is an image; values read from rendered page 9,dsm_2025_FloridaPublicUtilitiesCompany.pdf,p.9 (Table 3-1); cost Table 4-1
-Florida Public Utilities,Residential Heating and Cooling Upgrade,102690,105755,5.660,Table 3-2 is an image; values read from rendered page 10,dsm_2025_FloridaPublicUtilitiesCompany.pdf,p.10 (Table 3-2); cost Table 4-1
-Florida Public Utilities,Residential Low Income Program,7020,7232,5.731,,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-3; cost Table 4-1
-Florida Public Utilities,Residential Small Appliance Program,924,953,0.108,,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-4; cost Table 4-1
-Florida Public Utilities,Commercial Heating and Cooling Upgrade,0,0,0,no participants in 2025,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-5; cost Table 4-1
-Florida Public Utilities,Commercial Chiller Upgrade,0,0,0,no participants in 2025,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-6; cost Table 4-1
-Florida Public Utilities,Commercial Indoor & Outdoor Lighting,0,0,0,no participants in 2025,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-7; cost Table 4-1
+utility,program,annual_kwh_at_meter,annual_kwh_at_generator,program_cost_thousands,net_benefits_thousands,kwh_note,source_file,source_line
+Florida Power & Light,Residential Home Energy Survey,,,13321.0,,,dsm_2025_FloridaPowerandLightCompany.txt,95
+Florida Power & Light,Residential Load Management (On Call®),4886.0,5169.0,41657.0,380.0,,dsm_2025_FloridaPowerandLightCompany.txt,136
+Florida Power & Light,Residential HVAC On-Bill Pilot,0.0,0.0,0.0,0.0,,dsm_2025_FloridaPowerandLightCompany.txt,183
+Florida Power & Light,Residential HVAC,8811705.0,9321902.0,3742.0,-1425.0,,dsm_2025_FloridaPowerandLightCompany.txt,223
+Florida Power & Light,Residential New Construction (BuildSmart®),7718651.0,8165561.0,724.0,-743.0,,dsm_2025_FloridaPowerandLightCompany.txt,264
+Florida Power & Light,Residential Ceiling Insulation,16419404.0,17370088.0,1709.0,-1147.0,,dsm_2025_FloridaPowerandLightCompany.txt,305
+Florida Power & Light,Residential Low-Income Renter Pilot,0.0,0.0,5.0,0.0,,dsm_2025_FloridaPowerandLightCompany.txt,346
+Florida Power & Light,Residential Low-Income Weatherization,16307942.0,17252172.0,7494.0,-4693.0,,dsm_2025_FloridaPowerandLightCompany.txt,386
+Florida Power & Light,Business Energy Evaluation,,,5055.0,,,dsm_2025_FloridaPowerandLightCompany.txt,427
+Florida Power & Light,Business On Call,1054.0,1115.0,2582.0,3.0,,dsm_2025_FloridaPowerandLightCompany.txt,468
+Florida Power & Light,Commercial/Industrial Demand Reduction,87481.0,92546.0,35177.0,-240.0,,dsm_2025_FloridaPowerandLightCompany.txt,516
+Florida Power & Light,"Business Heating, Ventilating & Air Conditioning",29752853.0,31475543.0,7488.0,-2018.0,,dsm_2025_FloridaPowerandLightCompany.txt,564
+Florida Power & Light,Business Lighting,17853658.0,18887385.0,570.0,-1031.0,,dsm_2025_FloridaPowerandLightCompany.txt,606
+Florida Power & Light,Business Custom Incentive,0.0,0.0,14.0,,,dsm_2025_FloridaPowerandLightCompany.txt,648
+Duke Energy Florida,Home Energy Check,21054647.0,22292741.0,5611.0,,,dsm_2025_DukeEnergyFlorida.txt,141
+Duke Energy Florida,Residential Incentive Program (f/k/a Home Energy Improvement),7667268.0,8118132.0,4414.0,8435.0,,dsm_2025_DukeEnergyFlorida.txt,181
+Duke Energy Florida,Multi-Family New Builder Construction,99237.0,105073.0,114.0,-63.0,,dsm_2025_DukeEnergyFlorida.txt,221
+Duke Energy Florida,Neighborhood Energy Saver,20766129.0,21987256.0,12290.0,-25.0,,dsm_2025_DukeEnergyFlorida.txt,261
+Duke Energy Florida,Low Income Weatherization Assistance,413177.0,437473.0,362.0,-213.0,,dsm_2025_DukeEnergyFlorida.txt,301
+Duke Energy Florida,"Residential Load Management (a/k/a Residential Energy Management, Energy-Wise)",0.0,0.0,34874.0,28299.0,,dsm_2025_DukeEnergyFlorida.txt,341
+Duke Energy Florida,Business Energy Check,91840.0,96399.0,344.0,,,dsm_2025_DukeEnergyFlorida.txt,385
+Duke Energy Florida,Smart $aver Business,11817979.0,12404722.0,2249.0,7244.0,,dsm_2025_DukeEnergyFlorida.txt,425
+Duke Energy Florida,Smart $aver Custom,0.0,0.0,96.0,-98.0,,dsm_2025_DukeEnergyFlorida.txt,465
+Duke Energy Florida,Commercial Energy Management,0.0,0.0,677.0,,,dsm_2025_DukeEnergyFlorida.txt,505
+Duke Energy Florida,Interruptible Service,0.0,0.0,51083.0,0.0,,dsm_2025_DukeEnergyFlorida.txt,549
+Duke Energy Florida,Standby Generation,0.0,0.0,7348.0,57253.0,,dsm_2025_DukeEnergyFlorida.txt,592
+Duke Energy Florida,Curtailable Service,0.0,0.0,837.0,27040.0,,dsm_2025_DukeEnergyFlorida.txt,635
+Tampa Electric,RESIDENTIAL ALTERNATE AUDIT (aka Walk-Thru Audit or EA Free),1023885.0,1081223.0,2216.3,-1799.7,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,808
+Tampa Electric,RESIDENTIAL CUSTOMER ASSISTED AUDITS,9580673.0,10117191.0,420.5,52.0,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,862
+Tampa Electric,RESIDENTIAL RCS AUDIT (Computer Assisted - Paid),305.0,322.0,0.3,-0.3,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,916
+Tampa Electric,RESIDENTIAL CEILING INSULATION,292967.0,309373.0,414.1,135.2,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,970
+Tampa Electric,RESIDENTIAL DUCT REPAIR,293544.0,309982.0,66.6,139.0,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1023
+Tampa Electric,"ENERGY AND RENEWABLE EDUCATION, AWARENESS AND AGENCY OUTREACH",76590.0,80879.0,95.2,-37.4,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1072
+Tampa Electric,ENERGY STAR for NEW MULTI-FAMILY RESIDENCES,1716.0,1812.0,0.4,0.0,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1125
+Tampa Electric,ENERGY STAR for NEW HOMES (formerly RESIDENTIAL NEW CONSTRUCTION),951230.0,1004499.0,465.8,1162.0,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1178
+Tampa Electric,ENERGY STAR POOL PUMPS,2852124.0,3011843.0,337.5,0.0,,dsm_2025_TampaElectricCompany.txt,1231
+Tampa Electric,ENERGY STAR THERMOSTATS,175296.0,185113.0,55.6,72.0,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1274
+Tampa Electric,RESIDENTIAL HEATING AND COOLING TIER1,3068871.0,3240728.0,151.2,20580.1,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1327
+Tampa Electric,RESIDENTIAL HEATING AND COOLING TIER 2,3027280.0,3196808.0,297.2,8326.9,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1376
+Tampa Electric,NEIGHBORHOOD WEATHERIZATION,8376036.0,8845094.0,2929.8,-31925.1,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1425
+Tampa Electric,ENERGY PLANNER,209430.0,221158.0,2132.7,7784.6,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1478
+Tampa Electric,RESIDENTIAL PRIME TIME PLUS (Residential Load Management),0.0,0.0,1746.8,31160.1,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1532
+Tampa Electric,RESIDENTIAL WINDOW REPLACEMENT,192465.0,203243.0,176.2,0.0,,dsm_2025_TampaElectricCompany.txt,1586
+Tampa Electric,FREE COMMERCIAL/INDUSTRIAL AUDIT,449350.0,472716.0,587.5,-155.4,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1633
+Tampa Electric,COMPREHENSIVE COMMERCIAL/INDUSTRIAL AUDIT,0.0,0.0,0.2,0.0,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1687
+Tampa Electric,COMMERCIAL CHILLERS,699660.0,736042.0,11.7,0.0,,dsm_2025_TampaElectricCompany.txt,1741
+Tampa Electric,CONSERVATION VALUE / CUSTOM ENERGY EFFICIENCY,0.0,0.0,6.8,0.0,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1789
+Tampa Electric,COMMERCIAL COOLING - DX,65411.0,68812.0,14.6,0.0,,dsm_2025_TampaElectricCompany.txt,1843
+Tampa Electric,COMMERCIAL DEMAND RESPONSE,0.0,0.0,3687.5,0.0,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1891
+Tampa Electric,FACILITY ENERGY MANAGEMENT SYSTEM,25964031.0,27314160.0,341.6,0.0,,dsm_2025_TampaElectricCompany.txt,1946
+Tampa Electric,INDUSTRIAL LOAD MANAGEMENT,0.0,0.0,23521.6,0.0,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,1994
+Tampa Electric,COMMERCIAL LIGHTING - CONDITIONED SPACE,892728.0,939149.0,207.8,2933.7,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2049
+Tampa Electric,COMMERCIAL LIGHTING - UNCONDITIONED SPACE,672027.0,706972.0,74.6,125.6,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2103
+Tampa Electric,COMMERCIAL OCCUPANCY SENSORS,1257506.0,1322896.0,344.1,18707.0,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2157
+Tampa Electric,COMMERCIAL LOAD MANAGEMENT- CYCLIC,0.0,0.0,28.8,0.0,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2211
+Tampa Electric,COMMERCIAL LOAD MANAGEMENT- EXTENDED,0.0,0.0,0.0,0.0,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2265
+Tampa Electric,COMMERCIAL SMART THERMOSTATS,212221.0,223257.0,23.2,0.0,,dsm_2025_TampaElectricCompany.txt,2318
+Tampa Electric,STANDBY GENERATOR,0.0,0.0,4920.4,0.0,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2365
+Tampa Electric,VARIABLE FREQUENCY DRIVE AND MOTOR CONTROLS,0.0,0.0,5.5,0.0,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2420
+Tampa Electric,COMMERCIAL WATER HEATING AND DRAIN HEAT RECOVERY,0.0,0.0,0.1,0.0,2025-2034 plan row used (TECO reports two plans),dsm_2025_TampaElectricCompany.txt,2469
+Florida Public Utilities,Residential Energy Survey,16716,17220,60.002,-53.47574,Table 3-1 is an image; values read from rendered page 9,dsm_2025_FloridaPublicUtilitiesCompany.pdf,p.9 (Table 3-1); cost Table 4-1
+Florida Public Utilities,Residential Heating and Cooling Upgrade,102690,105755,5.660,34.4185,Table 3-2 is an image; values read from rendered page 10,dsm_2025_FloridaPublicUtilitiesCompany.pdf,p.10 (Table 3-2); cost Table 4-1
+Florida Public Utilities,Residential Low Income Program,7020,7232,5.731,-2.99088,,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-3; cost Table 4-1
+Florida Public Utilities,Residential Small Appliance Program,924,953,0.108,0.2528,,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-4; cost Table 4-1
+Florida Public Utilities,Commercial Heating and Cooling Upgrade,0,0,0,0,no participants in 2025,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-5; cost Table 4-1
+Florida Public Utilities,Commercial Chiller Upgrade,0,0,0,0,no participants in 2025,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-6; cost Table 4-1
+Florida Public Utilities,Commercial Indoor & Outdoor Lighting,0,0,0,0,no participants in 2025,dsm_2025_FloridaPublicUtilitiesCompany.txt,Table 3-7; cost Table 4-1

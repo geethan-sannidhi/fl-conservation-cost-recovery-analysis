@@ -43,9 +43,9 @@ FPUC's three commercial programs had no participants in 2025.
 
 ## Goals comparison (2025, as reported by each utility)
 - Florida Power & Light: 102.57 GWh achieved vs. 100.08 GWh goal (at generator).
-- Duke Energy Florida: 65 GWh achieved vs. 56 GWh goal (at generator (rounded to whole GWh in report)).
+- Duke Energy Florida: 65 GWh achieved vs. 56 GWh goal (at generator (report rounds to whole MW/GWh)).
 - Tampa Electric: 65.8 GWh achieved vs. 47.0 GWh goal (at generator (combined residential + C/I)).
-- Florida Public Utilities: 0.127 GWh achieved vs. 0.517 GWh goal (at generator (as printed in Table 2-3; program pages sum to 0.131 - see checks)).
+- Florida Public Utilities: 0.127 GWh achieved vs. 0.517 GWh goal (at generator (as printed in Table 2-3; program pages sum to 0.131 GWh - see checks)).
 
 ## Cost cross-check against ECCR filings
 - **Florida Power & Light**: 14 of 14 DSM-to-ECCR cost comparisons agree within rounding; $49.2 million (29% of the filed total) is in ECCR lines with no DSM program page (largest: Commercial/Industrial Load Control, $36.5 million).
