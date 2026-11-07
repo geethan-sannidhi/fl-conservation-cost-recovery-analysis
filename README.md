@@ -4,7 +4,7 @@ A reviewer-style screen of the energy-conservation programs reported by Florida'
 
 ## How this was built
 
-This project was built with **Claude**, Anthropic's AI assistant, in November 2026. I chose the questions and the scope, and directed the work. Claude found and retrieved the public filings, wrote the code, built the Excel model and SQL database, drafted the documents, and ran the checks. Every figure traces to a cited public filing, and the automated tests check the results against those filings and against independently published numbers. I'm happy to walk through any part of the method or the findings.
+This project was built with **Claude**, Anthropic's AI assistant. Every figure traces to a cited public filing, and the automated tests check the results against those filings and against independently published numbers. I'm happy to walk through any part of the method or the findings.
 
 **Excel model:** [excel/conservation_review_2025.xlsx](excel/conservation_review_2025.xlsx) reproduces the whole review with live formulas (assumptions, program screen, goals, savings and cost reconciliation, summary); it matches the Python results (`scripts/verify_excel.py`).
 
