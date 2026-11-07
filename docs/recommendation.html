@@ -23,7 +23,7 @@ code { font-size: 8.5pt; }
 <tbody>
 <tr>
 <td><strong>Date</strong></td>
-<td>November 4, 2026</td>
+<td>November 7, 2026</td>
 </tr>
 <tr>
 <td><strong>Subject</strong></td>
@@ -32,6 +32,10 @@ code { font-size: 8.5pt; }
 <tr>
 <td><strong>Format</strong></td>
 <td>Written in the structure of a utility-commission staff recommendation (case background, issues, recommendation, analysis)</td>
+</tr>
+<tr>
+<td><strong>Prepared with</strong></td>
+<td>Claude, Anthropic's AI assistant, which retrieved the filings, wrote the analysis code and drafted this document under the author's direction (see Appendix C)</td>
 </tr>
 <tr>
 <td><strong>Status</strong></td>
@@ -1500,6 +1504,7 @@ code { font-size: 8.5pt; }
 <li><strong>Demand programs</strong> are identified by keywords in the program name (<code>src/eccr.py</code>); they are excluded from cost per kWh.</li>
 <li><strong>Thresholds and assumptions</strong> chosen by this review: the $100,000 materiality floor, the $0.15 and $0.60 cost-per-kWh tiers, and the 30% fixed-cost share. None comes from a filing; each is a single constant in the code and can be changed.</li>
 <li><strong>Not done:</strong> no audit of utility records; no Commission cost-effectiveness tests (RIM, TRC, Participant) and no avoided-cost modeling; no review of true-up interest, revenues or recovery factors; no cross-check of FPUC costs; no net-to-gross or measure-life adjustments.</li>
+<li><strong>Use of AI.</strong> This review was built with Claude, Anthropic's AI assistant. The author set the questions and scope and directed the work; Claude retrieved the filings, wrote the extraction and analysis code, built the Excel model and SQL database, and drafted this document. Figures come from the cited filings and are checked by the repository's tests.</li>
 <li><strong>Reproducibility.</strong> <code>scripts/fetch_sources.sh</code> downloads every source; <code>scripts/analyze.py</code> and <code>scripts/write_recommendation.py</code> regenerate all tables, figures and this document. Unit tests in <code>tests/</code> check the transcriptions against filed totals.</li>
 </ul>
 <h2>Appendix D. Sources</h2>

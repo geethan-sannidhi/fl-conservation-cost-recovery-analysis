@@ -2,6 +2,10 @@
 
 A reviewer-style screen of the energy-conservation programs reported by Florida's four investor-owned electric utilities. It reads the utilities' public filings with the Florida Public Service Commission, reconciles program costs in their annual DSM reports against their Energy Conservation Cost Recovery (ECCR) true-up filings, checks savings totals, computes cost per kWh saved and a simple payback measure, tests sensitivity to participation, and writes a short staff-style memo.
 
+## How this was built
+
+This project was built with **Claude**, Anthropic's AI assistant, in November 2026. I chose the questions and the scope, and directed the work. Claude found and retrieved the public filings, wrote the code, built the Excel model and SQL database, drafted the documents, and ran the checks. Every figure traces to a cited public filing, and the automated tests check the results against those filings and against independently published numbers. I'm happy to walk through any part of the method or the findings.
+
 **Excel model:** [excel/conservation_review_2025.xlsx](excel/conservation_review_2025.xlsx) reproduces the whole review with live formulas (assumptions, program screen, goals, savings and cost reconciliation, summary); it matches the Python results (`scripts/verify_excel.py`).
 
 **SQL:** [sql/](sql/README.md) has the same analysis as SQLite queries (goals, savings and cost reconciliation, program screen, sensitivity) over `data/conservation_2025.sqlite`; tests check every query against the Python results.

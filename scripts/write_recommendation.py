@@ -246,6 +246,7 @@ doc = f"""# Review of 2025 Conservation Program Results and Cost Recovery: Flori
 | **Date** | {today} |
 | **Subject** | 2025 demand-side management (DSM) results and Energy Conservation Cost Recovery (ECCR) program costs for Florida Power & Light, Duke Energy Florida, Tampa Electric and Florida Public Utilities |
 | **Format** | Written in the structure of a utility-commission staff recommendation (case background, issues, recommendation, analysis) |
+| **Prepared with** | Claude, Anthropic's AI assistant, which retrieved the filings, wrote the analysis code and drafted this document under the author's direction (see Appendix C) |
 | **Status** | **Independent analysis of public filings. This is not a Florida Public Service Commission document, does not represent Commission staff, and makes no regulatory finding.** |
 
 ---
@@ -470,6 +471,7 @@ The line-by-line tables, including the mapping of each DSM program to its ECCR l
 - **Demand programs** are identified by keywords in the program name (`src/eccr.py`); they are excluded from cost per kWh.
 - **Thresholds and assumptions** chosen by this review: the $100,000 materiality floor, the ${LOW:.2f} and ${HIGH:.2f} cost-per-kWh tiers, and the {f:.0%} fixed-cost share. None comes from a filing; each is a single constant in the code and can be changed.
 - **Not done:** no audit of utility records; no Commission cost-effectiveness tests (RIM, TRC, Participant) and no avoided-cost modeling; no review of true-up interest, revenues or recovery factors; no cross-check of FPUC costs; no net-to-gross or measure-life adjustments.
+- **Use of AI.** This review was built with Claude, Anthropic's AI assistant. The author set the questions and scope and directed the work; Claude retrieved the filings, wrote the extraction and analysis code, built the Excel model and SQL database, and drafted this document. Figures come from the cited filings and are checked by the repository's tests.
 - **Reproducibility.** `scripts/fetch_sources.sh` downloads every source; `scripts/analyze.py` and `scripts/write_recommendation.py` regenerate all tables, figures and this document. Unit tests in `tests/` check the transcriptions against filed totals.
 
 ## Appendix D. Sources
